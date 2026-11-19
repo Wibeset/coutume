@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://coutume.app/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/support/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/support/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/assistance/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/support/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/privacy/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/confidentialite/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/privacy/"/>
+  </url>
+</urlset>

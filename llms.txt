@@ -1,0 +1,26 @@
+# Coutume
+
+> Coutume is a free habit tracker for iPhone, in French and English. It keeps good habits to build (8 glasses of water, 10,000 steps) and bad ones to quit (energy drinks): habits to build fill a ring in one tap, habits to quit are kept by default and only slips are logged. Apple Health fills in steps, exercise, mindful minutes and water on its own. Streaks forgive one missed day per week, and levels and milestones reward every day kept. No account, no ads: habits are stored on the iPhone and in the user's private iCloud. Made by Wibeset in Canada.
+
+Key facts:
+
+- Platform: iPhone only (not available on Android or the web). Coming soon to the App Store.
+- Price: free, with no ads, no subscription and no account.
+- Habits: to build (a check, or a count toward a daily target) or to quit (days without, money saved, urges resisted).
+- Apple Health: read only, never written. Steps, exercise minutes, mindful minutes and water; the daily totals stay on the device and in the user's private iCloud.
+- Gamification: forgiving streaks (one joker per week), eleven levels by days kept, eighteen milestones, perfect days.
+- Widgets: the day's rings on the Home Screen and Lock Screen.
+- Privacy: no analytics, tracking or server; the developer never receives the user's habits.
+- Suite: by the makers of Reliure (reading), Arpente (walking), Porcom (movies and TV) and Dernier Verre (cocktails).
+
+## Pages
+
+- [Home](https://coutume.app/): features and frequently asked questions
+- [Support](https://coutume.app/support/): contact, Health access, steps that don't match, undoing a slip, widgets, archiving
+- [Privacy policy](https://coutume.app/privacy/): what information the app handles
+
+## Français
+
+- [Accueil](https://coutume.app/fr/)
+- [Assistance](https://coutume.app/fr/assistance/)
+- [Politique de confidentialité](https://coutume.app/fr/confidentialite/)
