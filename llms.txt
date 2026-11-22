@@ -1,6 +1,6 @@
 # Coutume
 
-> Coutume is a free habit tracker for iPhone, in French and English. It keeps good habits to build (8 glasses of water, 10,000 steps) and bad ones to quit (energy drinks): habits to build fill a ring in one tap, habits to quit are kept by default and only slips are logged. Apple Health fills in steps, exercise, mindful minutes and water on its own. Streaks forgive one missed day per week, and levels and milestones reward every day kept. No account, no ads: habits are stored on the iPhone and in the user's private iCloud. Made by Wibeset in Canada.
+> Coutume is a free habit tracker for iPhone, in French and English (this site is also in Spanish). It keeps good habits to build (8 glasses of water, 10,000 steps) and bad ones to quit (energy drinks): habits to build fill a ring in one tap, habits to quit are kept by default and only slips are logged. Apple Health fills in steps, exercise, mindful minutes and water on its own. Streaks forgive one missed day per week, and levels and milestones reward every day kept. No account, no ads: habits are stored on the iPhone and in the user's private iCloud. Made by Wibeset in Canada.
 
 Key facts:
 
@@ -18,9 +18,92 @@ Key facts:
 - [Home](https://coutume.app/): features and frequently asked questions
 - [Support](https://coutume.app/support/): contact, Health access, steps that don't match, undoing a slip, widgets, archiving
 - [Privacy policy](https://coutume.app/privacy/): what information the app handles
+- [Streaks alternative](https://coutume.app/streaks-alternative/): compare Coutume with Streaks, the paid habit tracker for Apple devices
+- [Habitify alternative](https://coutume.app/habitify-alternative/): compare Coutume with Habitify, the habit tracker with free and paid plans
+- [Habitica alternative](https://coutume.app/habitica-alternative/): compare Coutume with Habitica, the habit tracker played as a role-playing game
+- [Apple Health habit tracker](https://coutume.app/habit-tracker-apple-health/): steps, exercise, mindful minutes and water, filled in by Apple Health
+- [Quit energy drinks](https://coutume.app/quit-energy-drinks/): count your days without energy drinks and the money you save
+- [Quit vaping tracker](https://coutume.app/quit-vaping-tracker/): track your days without vaping, the money saved and the urges resisted
+- [Days without counter](https://coutume.app/days-without-counter/): a days-without counter for anything you want to quit
+- [Water tracker](https://coutume.app/water-tracker/): count your glasses of water in one tap, or let Apple Health do it
+- [Free habit tracker](https://coutume.app/free-habit-tracker/): free for real: no subscription, no ads, no account
+- [Habit tracker widget](https://coutume.app/habit-tracker-widget/): the day’s rings on your Home Screen and Lock Screen
+- [Habit ideas](https://coutume.app/habit-ideas/): 40 ideas of good habits to build and bad ones to quit
+- [How long to form a habit](https://coutume.app/how-long-to-form-a-habit/): what research says about the 21-day myth, and why one missed day doesn’t matter
+
+## How-to articles
+
+- [How to drink 8 glasses of water a day](https://coutume.app/habit-ideas/drink-more-water/)
+- [How to walk 10,000 steps a day](https://coutume.app/habit-ideas/walk-10000-steps/)
+- [How to exercise 30 minutes every day](https://coutume.app/habit-ideas/exercise-every-day/)
+- [How to stretch every morning](https://coutume.app/habit-ideas/stretch-every-morning/)
+- [How to eat more fruits and vegetables](https://coutume.app/habit-ideas/eat-more-fruits-and-vegetables/)
+- [How to take the stairs every day](https://coutume.app/habit-ideas/take-the-stairs/)
+- [How to cook dinner at home](https://coutume.app/habit-ideas/cook-at-home/)
+- [How to remember to take your vitamins](https://coutume.app/habit-ideas/remember-to-take-vitamins/)
+- [How to go to bed earlier](https://coutume.app/habit-ideas/go-to-bed-earlier/)
+- [How to stop using your phone in bed](https://coutume.app/habit-ideas/no-screens-in-bed/)
+- [How to prepare the night before](https://coutume.app/habit-ideas/prepare-the-night-before/)
+- [How to get outside in the morning light](https://coutume.app/habit-ideas/get-morning-light/)
+- [How to keep a journal](https://coutume.app/habit-ideas/keep-a-journal/)
+- [How to read 20 pages a day](https://coutume.app/habit-ideas/read-every-day/)
+- [How to meditate for 10 minutes a day](https://coutume.app/habit-ideas/meditate-every-day/)
+- [How to practise a language 15 minutes a day](https://coutume.app/habit-ideas/learn-a-language/)
+- [How to practise an instrument every day](https://coutume.app/habit-ideas/practise-an-instrument/)
+- [How to practise gratitude every day](https://coutume.app/habit-ideas/practise-gratitude/)
+- [How to keep in touch with people you care about](https://coutume.app/habit-ideas/keep-in-touch/)
+- [How to make your bed every morning](https://coutume.app/habit-ideas/make-your-bed/)
+- [How to tidy up 10 minutes a day](https://coutume.app/habit-ideas/tidy-up-every-day/)
+- [How to quit sugary drinks](https://coutume.app/habit-ideas/quit-sugary-drinks/)
+- [How to stop snacking at night](https://coutume.app/habit-ideas/stop-snacking-at-night/)
+- [How to stop drinking coffee after noon](https://coutume.app/habit-ideas/no-coffee-after-noon/)
+- [How to stay off social media in the morning](https://coutume.app/habit-ideas/no-social-media-in-the-morning/)
+- [How to keep your phone off the table](https://coutume.app/habit-ideas/no-phone-at-the-table/)
+- [How to stop doomscrolling in bed](https://coutume.app/habit-ideas/stop-doomscrolling/)
+- [How to order less takeout on weeknights](https://coutume.app/habit-ideas/order-less-takeout/)
+- [How to stop impulse buying online](https://coutume.app/habit-ideas/stop-impulse-buying/)
+- [How to stop biting your nails](https://coutume.app/habit-ideas/stop-biting-nails/)
+- [How to stop hitting snooze](https://coutume.app/habit-ideas/stop-hitting-snooze/)
+- [How to track your expenses](https://coutume.app/habit-ideas/track-your-expenses/)
+- [How to bring your lunch](https://coutume.app/habit-ideas/bring-your-lunch/)
+- [How to make your own coffee](https://coutume.app/habit-ideas/make-your-own-coffee/)
+- [How to wait before buying](https://coutume.app/habit-ideas/wait-before-buying/)
+- [How to save money every day](https://coutume.app/habit-ideas/save-money-every-day/)
+- [How to check your accounts](https://coutume.app/habit-ideas/check-your-accounts/)
+- [How to cancel subscriptions you don’t use](https://coutume.app/habit-ideas/cancel-unused-subscriptions/)
 
 ## Français
 
 - [Accueil](https://coutume.app/fr/)
 - [Assistance](https://coutume.app/fr/assistance/)
 - [Politique de confidentialité](https://coutume.app/fr/confidentialite/)
+- [Alternative à Streaks](https://coutume.app/fr/alternative-streaks/)
+- [Alternative à Habitify](https://coutume.app/fr/alternative-habitify/)
+- [Alternative à Habitica](https://coutume.app/fr/alternative-habitica/)
+- [Suivi d’habitudes avec Santé](https://coutume.app/fr/suivi-habitudes-sante/)
+- [Arrêter les boissons énergisantes](https://coutume.app/fr/arreter-boissons-energisantes/)
+- [Arrêter de vapoter](https://coutume.app/fr/arreter-de-vapoter/)
+- [Compteur de jours sans](https://coutume.app/fr/compteur-jours-sans/)
+- [Suivi de l’eau](https://coutume.app/fr/suivi-eau/)
+- [App d’habitudes gratuite](https://coutume.app/fr/application-habitudes-gratuite/)
+- [Widget d’habitudes](https://coutume.app/fr/widget-habitudes/)
+- [Idées d’habitudes](https://coutume.app/fr/idees-habitudes/)
+- [Combien de temps pour une habitude](https://coutume.app/fr/combien-de-temps-pour-une-habitude/)
+
+## Español
+
+- [Inicio](https://coutume.app/es/)
+- [Soporte](https://coutume.app/es/soporte/)
+- [Política de privacidad](https://coutume.app/es/privacidad/)
+- [Alternativa a Streaks](https://coutume.app/es/alternativa-streaks/)
+- [Alternativa a Habitify](https://coutume.app/es/alternativa-habitify/)
+- [Alternativa a Habitica](https://coutume.app/es/alternativa-habitica/)
+- [Seguimiento de hábitos con Salud](https://coutume.app/es/seguimiento-habitos-salud/)
+- [Dejar las bebidas energéticas](https://coutume.app/es/dejar-bebidas-energeticas/)
+- [Dejar de vapear](https://coutume.app/es/dejar-de-vapear/)
+- [Contador de días sin](https://coutume.app/es/contador-dias-sin/)
+- [Seguimiento de agua](https://coutume.app/es/seguimiento-agua/)
+- [App de hábitos gratis](https://coutume.app/es/app-habitos-gratis/)
+- [Widget de hábitos](https://coutume.app/es/widget-habitos/)
+- [Ideas de hábitos](https://coutume.app/es/ideas-habitos/)
+- [Cuánto tarda un hábito](https://coutume.app/es/cuanto-tarda-un-habito/)

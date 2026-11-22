@@ -8,17 +8,16 @@
   <link rel="canonical" href="https://coutume.app/">
   <link rel="alternate" hreflang="en" href="https://coutume.app/">
   <link rel="alternate" hreflang="fr" href="https://coutume.app/fr/">
+  <link rel="alternate" hreflang="es" href="https://coutume.app/es/">
   <link rel="alternate" hreflang="x-default" href="https://coutume.app/">
-  <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#f5f3ee">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0a0b">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="preload" href="assets/fonts/headland-one-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/style.min.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Coutume">
@@ -27,134 +26,165 @@
   <meta property="og:url" content="https://coutume.app/">
   <meta property="og:locale" content="en_CA">
   <meta property="og:locale:alternate" content="fr_CA">
+  <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:image" content="https://coutume.app/assets/og-en.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Coutume — Keep your habits, one day at a time">
   <meta name="twitter:card" content="summary_large_image">
   <script>document.documentElement.classList.add("js")</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MobileApplication", "@id": "https://coutume.app/#app", "name": "Coutume", "description": "Coutume is a free habit tracker for iPhone: good habits to build, bad ones to quit, one tap to log, and Apple Health fills in your steps. No account, no ads.", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "inLanguage": "en", "url": "https://coutume.app/", "image": "https://coutume.app/assets/og-en.png", "publisher": {"@id": "https://coutume.app/#organization"}, "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CAD"}, "featureList": ["One tap: Tap a ring, the day is logged", "Apple Health: Steps and water log themselves", "Build or quit: Rings to fill, days without to count", "Forgiving streaks: One missed day a week is forgiven", "Levels: From Good intention to Legend", "Milestones: Eighteen to earn and celebrate", "Calendar: Your month, day by day", "Widgets: Your rings on the Home Screen", "iCloud sync: Your habits in your private iCloud", "Free: No account, no ads, no subscription"], "screenshot": ["https://coutume.app/assets/screens/fr/progress.webp", "https://coutume.app/assets/screens/fr/quit.webp", "https://coutume.app/assets/screens/fr/today.webp", "https://coutume.app/assets/screens/fr/detail.webp", "https://coutume.app/assets/screens/fr/calendar.webp"]}, {"@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Is Coutume free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Coutume is free, with no ads, no subscription and no account."}}, {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. Coutume works without an account or sign-up. Your habits are stored on your iPhone and synced with your private iCloud, which we can’t access."}}, {"@type": "Question", "name": "How do I log a habit?", "acceptedAnswer": {"@type": "Answer", "text": "Tap its ring. A habit you count, like 8 glasses of water, adds one with each tap; touch and hold the ring to enter a number or undo. Steps, exercise minutes, mindful minutes and water can fill themselves in from Apple Health."}}, {"@type": "Question", "name": "How do habits to quit work?", "acceptedAnswer": {"@type": "Answer", "text": "Every day counts as kept unless you log a slip. Coutume counts your days without, the money you’ve saved and the urges you resisted. A slip restarts the count, never your month or your level."}}, {"@type": "Question", "name": "What if I miss a day?", "acceptedAnswer": {"@type": "Answer", "text": "Your streak forgives one missed day per week. Miss more, and the streak starts over, but your level and your milestones stay: they count every day you’ve kept."}}, {"@type": "Question", "name": "What does Coutume read from Health?", "acceptedAnswer": {"@type": "Answer", "text": "Only what you allow: steps, exercise minutes, mindful minutes and water. Coutume never writes to Health, and your totals stay on your iPhone and in your iCloud."}}, {"@type": "Question", "name": "What if I change iPhones?", "acceptedAnswer": {"@type": "Answer", "text": "Your habits sync with your iCloud and come back on your new iPhone, with all their history, levels and milestones."}}, {"@type": "Question", "name": "Is Coutume available on Android?", "acceptedAnswer": {"@type": "Answer", "text": "No. Coutume is available for iPhone, in English and French."}}]}, {"@type": "WebSite", "@id": "https://coutume.app/#website", "url": "https://coutume.app/", "name": "Coutume", "inLanguage": ["en", "fr"], "publisher": {"@id": "https://coutume.app/#organization"}}, {"@type": "Organization", "@id": "https://coutume.app/#organization", "name": "Wibeset", "url": "https://wibeset.ca", "logo": "https://coutume.app/assets/icon.png", "email": "hello@wibeset.ca", "address": {"@type": "PostalAddress", "addressCountry": "CA"}}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MobileApplication", "@id": "https://coutume.app/#app", "name": "Coutume", "description": "Coutume is a free habit tracker for iPhone: good habits to build, bad ones to quit, one tap to log, and Apple Health fills in your steps. No account, no ads.", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "inLanguage": "en", "url": "https://coutume.app/", "image": "https://coutume.app/assets/og-en.png", "publisher": {"@id": "https://coutume.app/#organization"}, "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CAD"}, "featureList": ["One tap: Tap a ring, the day is logged", "Apple Health: Steps and water log themselves", "Build or quit: Rings to fill, days without to count", "Forgiving streaks: One missed day a week is forgiven", "Levels: From Good intention to Legend", "Milestones: Eighteen to earn and celebrate", "Calendar: Your month, day by day", "Widgets: Your rings on the Home Screen", "iCloud sync: Your habits in your private iCloud", "Free: No account, no ads, no subscription"], "screenshot": ["https://coutume.app/assets/screens/fr/progress.webp", "https://coutume.app/assets/screens/fr/quit.webp", "https://coutume.app/assets/screens/fr/today.webp", "https://coutume.app/assets/screens/fr/detail.webp", "https://coutume.app/assets/screens/fr/calendar.webp"]}, {"@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Is Coutume free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Coutume is free, with no ads, no subscription and no account."}}, {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. Coutume works without an account or sign-up. Your habits are stored on your iPhone and synced with your private iCloud, which we can’t access."}}, {"@type": "Question", "name": "How do I log a habit?", "acceptedAnswer": {"@type": "Answer", "text": "Tap its ring. A habit you count, like 8 glasses of water, adds one with each tap; touch and hold the ring to enter a number or undo. Steps, exercise minutes, mindful minutes and water can fill themselves in from Apple Health."}}, {"@type": "Question", "name": "How do habits to quit work?", "acceptedAnswer": {"@type": "Answer", "text": "Every day counts as kept unless you log a slip. Coutume counts your days without, the money you’ve saved and the urges you resisted. A slip restarts the count, never your month or your level."}}, {"@type": "Question", "name": "What if I miss a day?", "acceptedAnswer": {"@type": "Answer", "text": "Your streak forgives one missed day per week. Miss more, and the streak starts over, but your level and your milestones stay: they count every day you’ve kept."}}, {"@type": "Question", "name": "What does Coutume read from Health?", "acceptedAnswer": {"@type": "Answer", "text": "Only what you allow: steps, exercise minutes, mindful minutes and water. Coutume never writes to Health, and your totals stay on your iPhone and in your iCloud."}}, {"@type": "Question", "name": "What if I change iPhones?", "acceptedAnswer": {"@type": "Answer", "text": "Your habits sync with your iCloud and come back on your new iPhone, with all their history, levels and milestones."}}, {"@type": "Question", "name": "Is Coutume available on Android?", "acceptedAnswer": {"@type": "Answer", "text": "No. Coutume is available for iPhone, in English and French."}}]}, {"@type": "WebSite", "@id": "https://coutume.app/#website", "url": "https://coutume.app/", "name": "Coutume", "inLanguage": ["en", "fr", "es"], "publisher": {"@id": "https://coutume.app/#organization"}}, {"@type": "Organization", "@id": "https://coutume.app/#organization", "name": "Wibeset", "url": "https://wibeset.ca", "logo": "https://coutume.app/assets/icon.png", "email": "hello@wibeset.ca", "address": {"@type": "PostalAddress", "addressCountry": "CA"}}]}</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="nav">
-    <a class="brand" href="./"><img src="assets/icon.png" width="30" height="30" alt="">Coutume <span>for iPhone</span></a>
-    <a href="support/">Support</a>
-    <a href="fr/" hreflang="fr" lang="fr">Français</a>
-    <span class="store">Coming soon to the App Store</span>
-  </header>
 
-  <main id="main">
-    <section class="hero reveal">
-      <!-- A glass of water, an energy drink crossed out, a sun. -->
-      <svg class="doodle side" viewBox="0 0 120 170" style="left: calc(50% - 690px); top: -50px; width: 110px;" aria-hidden="true"><path pathLength="1" d="M14 10h92L94 160H26ZM20 64c14-8 26 8 40 0s26 8 40 0M44 100v30M70 110v14"/></svg>
-      <svg class="doodle side" viewBox="0 0 140 180" style="left: calc(50% - 480px); top: 170px; width: 100px;" aria-hidden="true"><path pathLength="1" d="M42 20h56v146H42ZM42 40h56M42 146h56M60 8h20M76 64l-12 30h14l-10 28M10 170 130 10"/></svg>
-      <svg class="doodle side" viewBox="0 0 150 150" style="left: calc(50% + 490px); top: 40px; width: 130px;" aria-hidden="true"><path pathLength="1" d="M45 75a30 30 0 1 0 60 0a30 30 0 1 0-60 0M75 8v20M75 122v20M8 75h20M122 75h20M27 27l14 14M109 109l14 14M27 123l14-14M109 41l14-14"/></svg>
-      <h1>Keep your habits, <em>one day at a time.</em></h1>
-      <p class="pill">Coming soon to the App Store</p>
-      <p class="free">Free and 100% personal. No account, no ads.</p>
-    </section>
-
-    <!-- The app, in a row: captured from the simulator by scripts/capture-screens.sh. -->
-    <div class="phones reveal"><div class="device" style="--d: 0.24s"><picture><source type="image/avif" srcset="assets/screens/fr/progress.avif"><img src="assets/screens/fr/progress.webp" width="750" height="1630" alt="Progress: the level reached and the milestones earned" loading="lazy" decoding="async"></picture></div><div class="device" style="--d: 0.12s"><picture><source type="image/avif" srcset="assets/screens/fr/quit.avif"><img src="assets/screens/fr/quit.webp" width="750" height="1630" alt="A habit to quit: 12 days without energy drinks, $42 saved" loading="lazy" decoding="async"></picture></div><div class="device" style="--d: 0.00s"><picture><source type="image/avif" srcset="assets/screens/fr/today.avif"><img src="assets/screens/fr/today.webp" width="750" height="1630" alt="The day: six habits, each with its ring" decoding="async"></picture></div><div class="device" style="--d: 0.12s"><picture><source type="image/avif" srcset="assets/screens/fr/detail.avif"><img src="assets/screens/fr/detail.webp" width="750" height="1630" alt="10,000 steps, filled in by Apple Health, with its streak and history" loading="lazy" decoding="async"></picture></div><div class="device" style="--d: 0.24s"><picture><source type="image/avif" srcset="assets/screens/fr/calendar.avif"><img src="assets/screens/fr/calendar.webp" width="750" height="1630" alt="The calendar: the month, brighter as more habits were kept" loading="lazy" decoding="async"></picture></div></div>
-
-    <section class="pair reveal" aria-labelledby="pair-heading">
-      <!-- A sneaker, a calendar of checks. -->
-      <svg class="doodle side" viewBox="0 0 200 120" style="left: calc(50% - 700px); top: 60px; width: 180px;" aria-hidden="true"><path pathLength="1" d="M12 92c0-28 6-58 14-70 18 14 40 20 62 18 18 18 48 26 84 34 16 4 20 14 18 22v8H12ZM12 96h178M60 48l10-8M74 58l10-8M88 66l10-8"/></svg>
-      <svg class="doodle side" viewBox="0 0 170 160" style="left: calc(50% + 520px); top: 300px; width: 140px;" aria-hidden="true"><path pathLength="1" d="M10 30h150v120H10ZM10 62h150M48 14v30M122 14v30M34 96l8 8 14-14M76 96l8 8 14-14M118 96l8 8 14-14M34 130l8 8 14-14M76 130l8 8 14-14"/></svg>
-      <h2 id="pair-heading">Good habits to build. Bad ones to <em>quit.</em></h2>
-      <p>Coutume doesn’t treat them the same way, because they aren’t. A habit to build fills its ring as the day goes. A habit to quit is kept by default: you only log the day you slip.</p>
-      <div class="habit-pair">
-        <article class="habit habit-build reveal"><div class="habit-ring" role="img" aria-label="Five glasses of water out of eight, today"><svg viewBox="0 0 132 132" aria-hidden="true"><circle class="track" cx="66" cy="66" r="58"/><circle class="fill" cx="66" cy="66" r="58" pathLength="100" style="--p: 62.5"/></svg><b aria-hidden="true">5</b></div><div><p class="when">To build</p><h3>8 glasses of water</h3><p class="stats"><span><b>5 of 8</b></span><span>glasses today</span><span>21-day streak</span></p></div></article>
-        <article class="habit habit-quit reveal"><div class="habit-ring" role="img" aria-label="Twelve days without energy drinks"><svg viewBox="0 0 132 132" aria-hidden="true"><circle class="track" cx="66" cy="66" r="58"/><circle class="fill" cx="66" cy="66" r="58" pathLength="100" style="--p: 100"/></svg><b aria-hidden="true">12</b></div><div><p class="when">To quit</p><h3>No energy drinks</h3><p class="stats"><span><b>12 days without</b></span><span>$42 saved</span><span>2 urges resisted this week</span></p></div></article>
+  <div class="split">
+  <main id="main" class="content">
+    <section class="screen hero" data-screen="today">
+      <img class="logo" src="assets/icon.png" width="56" height="56" alt="">
+      <p class="label">Coutume — Habit tracker for iPhone</p>
+      <h1>Keep your habits, <em class="swash">one day at a time</em>.</h1>
+      <div>
+        <p>Good habits to build, bad ones to quit: one tap to log, and Apple Health fills in your steps. Free, with no account, no ads and no subscription.</p>
+        <div class="get"><span class="store"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1ZM13.9 4.9c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5Z"/></svg>Coming soon to the App Store</span><span class="soon">iPhone, in English and French</span></div>
       </div>
-      <p class="verdict">Both make a day kept.</p>
+      <figure class="device shot"><img src="assets/screens/fr/today.webp" width="750" height="1630" alt="The day: six habits, each with its ring" loading="lazy" decoding="async"></figure>
     </section>
-
-    <section class="features-wrap reveal" aria-labelledby="features-heading">
-      <!-- An open book, a moon. -->
-      <svg class="doodle side" viewBox="0 0 180 130" style="left: calc(50% - 660px); top: 40px; width: 160px;" aria-hidden="true"><path pathLength="1" d="M8 20c30-12 58-8 82 10 24-18 52-22 82-10v100c-30-12-58-8-82 10-24-18-52-22-82-10ZM90 30v100M24 44c18-4 34-2 50 6M24 64c18-4 34-2 50 6M106 50c16-8 32-10 50-6"/></svg>
-      <svg class="doodle side" viewBox="0 0 160 150" style="left: calc(50% + 490px); top: 240px; width: 130px;" aria-hidden="true"><path pathLength="1" d="M94 14a64 64 0 1 0 56 92 52 52 0 0 1-56-92ZM30 26v16M22 34h16M128 30v12M122 36h12"/></svg>
-      <h2 class="sr-only" id="features-heading">Features</h2>
-      <ul class="features"><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity=".18"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" pathLength="100" stroke-dasharray="70 100" stroke-linecap="round" transform="rotate(-90 12 12)"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg><h3>One tap</h3><p>Tap a ring, the day is logged</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5 10.7 19.3C6.2 15.2 3 12.4 3 8.9 3 6.1 5.2 4 7.9 4c1.5 0 3 .7 4.1 1.9C13.1 4.7 14.6 4 16.1 4 18.8 4 21 6.1 21 8.9c0 3.5-3.2 6.3-7.7 10.4Z" fill="currentColor" fill-opacity=".18"/><path d="M5 11.5h3.5l1.5-3 3 6 1.5-3H19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><h3>Apple Health</h3><p>Steps and water log themselves</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity=".18"/><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor"/></svg><h3>Build or quit</h3><p>Rings to fill, days without to count</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c-4 0-7-2.7-7-6.5 0-3.6 3-5.5 4-9 2.5 1.5 3 3.5 3 5 1-1 1.5-2 1.5-3.5 3 2 5.5 4.5 5.5 7.5 0 3.8-3 6.5-7 6.5Z" fill="currentColor" fill-opacity=".18" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><h3>Forgiving streaks</h3><p>One missed day a week is forgiven</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="currentColor" fill-opacity=".18"/><path d="M7.5 17v-3M12 17v-6M16.5 17V7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><h3>Levels</h3><p>From Good intention to Legend</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="14.5" r="6" fill="currentColor" fill-opacity=".18" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 3h7l-2.2 6h-2.6Z" fill="currentColor"/><path d="m12 12 .9 1.8 2 .3-1.4 1.4.3 2-1.8-1-1.8 1 .3-2-1.4-1.4 2-.3Z" fill="currentColor"/></svg><h3>Milestones</h3><p>Eighteen to earn and celebrate</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="3" fill="currentColor" fill-opacity=".18"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="8" cy="14" r="1.4" fill="currentColor"/><circle cx="12" cy="14" r="1.4" fill="currentColor"/><circle cx="16" cy="14" r="1.4" fill="currentColor"/></svg><h3>Calendar</h3><p>Your month, day by day</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="2.4" fill="currentColor"/><rect x="13" y="3" width="8" height="8" rx="2.4" fill="currentColor" fill-opacity=".18"/><rect x="3" y="13" width="8" height="8" rx="2.4" fill="currentColor" fill-opacity=".18"/><rect x="13" y="13" width="8" height="8" rx="2.4" fill="currentColor" fill-opacity=".18"/></svg><h3>Widgets</h3><p>Your rings on the Home Screen</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 19h10.5a4.5 4.5 0 0 0 .6-8.96A6.5 6.5 0 0 0 5.6 8.6 5.2 5.2 0 0 0 7 19Z" fill="currentColor" fill-opacity=".18" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><h3>iCloud sync</h3><p>Your habits in your private iCloud</p></li><li class="reveal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="9" width="17" height="11.5" rx="2.5" fill="currentColor" fill-opacity=".18"/><path d="M3.5 13h17M12 9v11.5M12 9C10.5 5 6 4.5 6 7.5 6 9 8 9 12 9Zm0 0c1.5-4 6-4.5 6-1.5 0 1.5-2 1.5-6 1.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><h3>Free</h3><p>No account, no ads, no subscription</p></li></ul>
+    <section class="screen" data-screen="today">
+      <h2>Tap a ring, the day is logged.</h2>
+      <p>Your day’s habits, each with its ring. A habit you count, like 8 glasses of water, adds one with each tap; touch and hold to enter a number or undo.</p>
     </section>
-
-    <section class="closing reveal">
-      <h2>Habit tracker for iPhone</h2>
-      <p class="pill">Coming soon to the App Store</p>
-      <svg class="doodle" viewBox="0 0 120 70" style="left: calc(50% - 210px); top: 270px; width: 96px;" aria-hidden="true"><path pathLength="1" d="M4 52C40 74 80 58 98 18M78 24l22-8 4 26"/></svg>
-      <img class="qr" src="assets/qr.svg" width="76" height="76" alt="">
-      <p class="qr-caption">Open coutume.app on your iPhone with your camera</p>
+    <section class="screen" data-screen="detail">
+      <h2>Apple Health fills in your steps.</h2>
+      <p>Steps, exercise minutes, mindful minutes and water log themselves. Each habit keeps its streak and its whole history.</p>
+      <figure class="device shot"><img src="assets/screens/fr/detail.webp" width="750" height="1630" alt="10,000 steps, filled in by Apple Health, with its streak and history" loading="lazy" decoding="async"></figure>
     </section>
-
-    <hr class="rule">
-
-    <section class="answers reveal" aria-labelledby="faq-heading">
-      <!-- A leaf, a glass of water. -->
-      <svg class="doodle side" viewBox="0 0 170 150" style="left: calc(50% - 640px); top: 260px; width: 150px;" aria-hidden="true"><path pathLength="1" d="M20 136C18 60 72 14 156 14c4 76-44 128-126 122ZM20 136l92-86M64 96l-2-26M88 74l20-2"/></svg>
-      <svg class="doodle side" viewBox="0 0 120 170" style="left: calc(50% + 500px); top: 900px; width: 100px;" aria-hidden="true"><path pathLength="1" d="M14 10h92L94 160H26ZM20 64c14-8 26 8 40 0s26 8 40 0M44 100v30M70 110v14"/></svg>
-      <h2 class="sr-only" id="faq-heading">Questions, answered</h2>
-      <div class="answer reveal"><p>Price</p><div><h3>Is Coutume free?</h3><p>Yes. Coutume is free, with no ads, no subscription and no account.</p></div></div><div class="answer reveal"><p>Account</p><div><h3>Do I need an account?</h3><p>No. Coutume works without an account or sign-up. Your habits are stored on your iPhone and synced with your private iCloud, which we can’t access.</p></div></div><div class="answer reveal"><p>Logging</p><div><h3>How do I log a habit?</h3><p>Tap its ring. A habit you count, like 8 glasses of water, adds one with each tap; touch and hold the ring to enter a number or undo. Steps, exercise minutes, mindful minutes and water can fill themselves in from Apple Health.</p></div></div><div class="answer reveal"><p>Quitting</p><div><h3>How do habits to quit work?</h3><p>Every day counts as kept unless you log a slip. Coutume counts your days without, the money you’ve saved and the urges you resisted. A slip restarts the count, never your month or your level.</p></div></div><div class="answer reveal"><p>Streaks</p><div><h3>What if I miss a day?</h3><p>Your streak forgives one missed day per week. Miss more, and the streak starts over, but your level and your milestones stay: they count every day you’ve kept.</p></div></div><div class="answer reveal"><p>Apple Health</p><div><h3>What does Coutume read from Health?</h3><p>Only what you allow: steps, exercise minutes, mindful minutes and water. Coutume never writes to Health, and your totals stay on your iPhone and in your iCloud.</p></div></div><div class="answer reveal"><p>Backups</p><div><h3>What if I change iPhones?</h3><p>Your habits sync with your iCloud and come back on your new iPhone, with all their history, levels and milestones.</p></div></div><div class="answer reveal"><p>Android</p><div><h3>Is Coutume available on Android?</h3><p>No. Coutume is available for iPhone, in English and French.</p></div></div>
-      <div class="answer"><p></p><div><p><a href="support/">More questions? Visit Support →</a></p></div></div>
+    <section class="screen" data-screen="quit">
+      <h2>Bad habits to quit, counted in days without.</h2>
+      <p>A habit to quit is kept by default: you only log the day you slip. Coutume counts your days without, the money saved and the urges you resisted.</p>
+      <figure class="device shot"><img src="assets/screens/fr/quit.webp" width="750" height="1630" alt="A habit to quit: 12 days without energy drinks, $42 saved" loading="lazy" decoding="async"></figure>
     </section>
-
-    <!-- Four friendly ads: the makers' other apps, Reliure for reading, Arpente for walking, Porcom for watching and Dernier Verre for mixing. -->
-    <aside class="ads">
-      <div class="ads-grid">
-        <a class="ad ad-reliure reveal" href="https://reliure.me/">
-          <div class="ad-text">
-            <p class="ad-eyebrow">From the same makers</p>
-            <h3><img src="assets/ads/reliure-icon-dark.png" width="40" height="40" alt="">Reliure</h3>
-            <p class="ad-tagline">Your reading life, bound together.</p>
-            <p class="ad-body">The reading tracker for iPhone: scan your books, log your pages and watch the habit grow. Free, no account.</p>
-            <span class="ad-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1ZM13.9 4.9c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5Z"/></svg>Get it on the App Store</span>
-          </div>
-          <div class="ad-phone"><img src="assets/ads/reliure-home-en-dark.webp" width="750" height="1630" loading="lazy" alt="Reliure’s home screen, with the book being read and the yearly goal."></div>
-        </a>
-        <a class="ad ad-arpente reveal" href="https://arpente.app/">
-          <div class="ad-text">
-            <p class="ad-eyebrow">From the same makers</p>
-            <h3><img src="assets/ads/arpente-icon.png" width="40" height="40" alt="">Arpente</h3>
-            <p class="ad-tagline">Every step tells a story.</p>
-            <p class="ad-body">The walking and hiking journal for iPhone: GPS maps, clear statistics and the story of your explorations. Free, no account.</p>
-            <span class="ad-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1ZM13.9 4.9c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5Z"/></svg>Coming soon to iPhone</span>
-          </div>
-          <div class="ad-phone"><img src="assets/ads/arpente-home-en.webp" width="750" height="1630" loading="lazy" alt="Arpente’s journal, with this month’s walks, each on its map."></div>
-        </a>
-        <a class="ad ad-porcom reveal" href="https://porcom.app/">
-          <div class="ad-text">
-            <p class="ad-eyebrow">From the same makers</p>
-            <h3><img src="assets/ads/porcom-logo.png" width="40" height="40" alt="">Porcom</h3>
-            <p class="ad-tagline">A tiny journal for everything you watch.</p>
-            <p class="ad-body">The movie and TV show journal for iPhone: trailers, episodes, verdicts and your hours on screen. Free, no account.</p>
-            <span class="ad-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1ZM13.9 4.9c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5Z"/></svg>Get it on the App Store</span>
-          </div>
-          <div class="ad-phone"><img src="assets/ads/porcom-home-en-dark.webp" width="750" height="1630" loading="lazy" alt="Porcom’s home screen, with the next episode and a Continue button."></div>
-        </a>
-        <a class="ad ad-dernierverre reveal" href="https://dernierverre.app/">
-          <div class="ad-text">
-            <p class="ad-eyebrow">From the same makers</p>
-            <h3><img src="assets/ads/dernierverre-icon.png" width="40" height="40" alt="">Dernier Verre</h3>
-            <p class="ad-tagline">One more, perfectly mixed.</p>
-            <p class="ad-body">The cocktail app for iPhone: 52 classic recipes as full-screen posters. Tick your bar and see what you can mix. Free, no account.</p>
-            <span class="ad-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1ZM13.9 4.9c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5Z"/></svg>Coming soon to iPhone</span>
-          </div>
-          <div class="ad-phone"><img src="assets/ads/dernierverre-feed-fr.webp" width="460" height="1000" loading="lazy" alt="Dernier Verre’s feed, with the Bellini as a full-screen poster."></div>
-        </a>
+    <section class="screen" data-screen="progress">
+      <h2>Levels and milestones for every day kept.</h2>
+      <p>Eleven levels, from Good intention to Legend, eighteen milestones to celebrate, and a streak that forgives one missed day a week.</p>
+      <figure class="device shot"><img src="assets/screens/fr/progress.webp" width="750" height="1630" alt="Progress: the level reached and the milestones earned" loading="lazy" decoding="async"></figure>
+    </section>
+    <section class="screen" data-screen="calendar">
+      <h2>Your month, day by day.</h2>
+      <p>A calendar of every day, brighter as more habits were kept, and widgets for your Home Screen.</p>
+      <figure class="device shot"><img src="assets/screens/fr/calendar.webp" width="750" height="1630" alt="The calendar: the month, brighter as more habits were kept" loading="lazy" decoding="async"></figure>
+    </section>
+    <section>
+      <h2>All the features.</h2>
+      <ul class="rows">
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #f29a5c" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity=".2"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" pathLength="100" stroke-dasharray="70 100" stroke-linecap="round" transform="rotate(-90 12 12)"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>One tap</h3><p>Tap a ring, the day is logged</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #ff6f91" aria-hidden="true"><path d="M12 20.5 10.7 19.3C6.2 15.2 3 12.4 3 8.9 3 6.1 5.2 4 7.9 4c1.5 0 3 .7 4.1 1.9C13.1 4.7 14.6 4 16.1 4 18.8 4 21 6.1 21 8.9c0 3.5-3.2 6.3-7.7 10.4Z" fill="currentColor" fill-opacity=".2"/><path d="M5 11.5h3.5l1.5-3 3 6 1.5-3H19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Apple Health</h3><p>Steps and water log themselves</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #8fb3db" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity=".2"/><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor"/></svg>Build or quit</h3><p>Rings to fill, days without to count</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #ffb347" aria-hidden="true"><path d="M12 21c-4 0-7-2.7-7-6.5 0-3.6 3-5.5 4-9 2.5 1.5 3 3.5 3 5 1-1 1.5-2 1.5-3.5 3 2 5.5 4.5 5.5 7.5 0 3.8-3 6.5-7 6.5Z" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Forgiving streaks</h3><p>One missed day a week is forgiven</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #9ad14b" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="currentColor" fill-opacity=".2"/><path d="M7.5 17v-3M12 17v-6M16.5 17V7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Levels</h3><p>From Good intention to Legend</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #ffd23f" aria-hidden="true"><circle cx="12" cy="14.5" r="6" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 3h7l-2.2 6h-2.6Z" fill="currentColor"/><path d="m12 12 .9 1.8 2 .3-1.4 1.4.3 2-1.8-1-1.8 1 .3-2-1.4-1.4 2-.3Z" fill="currentColor"/></svg>Milestones</h3><p>Eighteen to earn and celebrate</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #5ad4e6" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="3" fill="currentColor" fill-opacity=".2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="8" cy="14" r="1.4" fill="currentColor"/><circle cx="12" cy="14" r="1.4" fill="currentColor"/><circle cx="16" cy="14" r="1.4" fill="currentColor"/></svg>Calendar</h3><p>Your month, day by day</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #b58cff" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="2.4" fill="currentColor"/><rect x="13" y="3" width="8" height="8" rx="2.4" fill="currentColor" fill-opacity=".2"/><rect x="3" y="13" width="8" height="8" rx="2.4" fill="currentColor" fill-opacity=".2"/><rect x="13" y="13" width="8" height="8" rx="2.4" fill="currentColor" fill-opacity=".2"/></svg>Widgets</h3><p>Your rings on the Home Screen</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #a7b8ff" aria-hidden="true"><path d="M7 19h10.5a4.5 4.5 0 0 0 .6-8.96A6.5 6.5 0 0 0 5.6 8.6 5.2 5.2 0 0 0 7 19Z" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>iCloud sync</h3><p>Your habits in your private iCloud</p></li>
+        <li><h3 class="name"><svg class="icon" viewBox="0 0 24 24" style="color: #34c77b" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity=".22"/><path d="m7.8 12.3 2.8 2.8 5.6-6.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Free</h3><p>No account, no ads, no subscription</p></li>
+      </ul>
+    </section>
+    <section aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently asked questions.</h2>
+      <div class="faq-list">
+        <details>
+          <summary><h3>Is Coutume free?</h3></summary>
+          <p>Yes. Coutume is free, with no ads, no subscription and no account.</p>
+        </details>
+        <details>
+          <summary><h3>Do I need an account?</h3></summary>
+          <p>No. Coutume works without an account or sign-up. Your habits are stored on your iPhone and synced with your private iCloud, which we can’t access.</p>
+        </details>
+        <details>
+          <summary><h3>How do I log a habit?</h3></summary>
+          <p>Tap its ring. A habit you count, like 8 glasses of water, adds one with each tap; touch and hold the ring to enter a number or undo. Steps, exercise minutes, mindful minutes and water can fill themselves in from Apple Health.</p>
+        </details>
+        <details>
+          <summary><h3>How do habits to quit work?</h3></summary>
+          <p>Every day counts as kept unless you log a slip. Coutume counts your days without, the money you’ve saved and the urges you resisted. A slip restarts the count, never your month or your level.</p>
+        </details>
+        <details>
+          <summary><h3>What if I miss a day?</h3></summary>
+          <p>Your streak forgives one missed day per week. Miss more, and the streak starts over, but your level and your milestones stay: they count every day you’ve kept.</p>
+        </details>
+        <details>
+          <summary><h3>What does Coutume read from Health?</h3></summary>
+          <p>Only what you allow: steps, exercise minutes, mindful minutes and water. Coutume never writes to Health, and your totals stay on your iPhone and in your iCloud.</p>
+        </details>
+        <details>
+          <summary><h3>What if I change iPhones?</h3></summary>
+          <p>Your habits sync with your iCloud and come back on your new iPhone, with all their history, levels and milestones.</p>
+        </details>
+        <details>
+          <summary><h3>Is Coutume available on Android?</h3></summary>
+          <p>No. Coutume is available for iPhone, in English and French.</p>
+        </details>
       </div>
-    </aside>
+      <p class="faq-more">More questions? <a href="support/">Visit Support</a>.</p>
+    </section>
+    <section id="guides">
+      <h2>Guides.</h2>
+      <ul class="rows">
+        <li><span class="name"><a href="streaks-alternative/">Streaks alternative</a></span><p>Compare Coutume with Streaks, the paid habit tracker for Apple devices</p></li>
+        <li><span class="name"><a href="habitify-alternative/">Habitify alternative</a></span><p>Compare Coutume with Habitify, the habit tracker with free and paid plans</p></li>
+        <li><span class="name"><a href="habitica-alternative/">Habitica alternative</a></span><p>Compare Coutume with Habitica, the habit tracker played as a role-playing game</p></li>
+        <li><span class="name"><a href="habit-tracker-apple-health/">Apple Health habit tracker</a></span><p>Steps, exercise, mindful minutes and water, filled in by Apple Health</p></li>
+        <li><span class="name"><a href="quit-energy-drinks/">Quit energy drinks</a></span><p>Count your days without energy drinks and the money you save</p></li>
+        <li><span class="name"><a href="quit-vaping-tracker/">Quit vaping tracker</a></span><p>Track your days without vaping, the money saved and the urges resisted</p></li>
+        <li><span class="name"><a href="days-without-counter/">Days without counter</a></span><p>A days-without counter for anything you want to quit</p></li>
+        <li><span class="name"><a href="water-tracker/">Water tracker</a></span><p>Count your glasses of water in one tap, or let Apple Health do it</p></li>
+        <li><span class="name"><a href="free-habit-tracker/">Free habit tracker</a></span><p>Free for real: no subscription, no ads, no account</p></li>
+        <li><span class="name"><a href="habit-tracker-widget/">Habit tracker widget</a></span><p>The day’s rings on your Home Screen and Lock Screen</p></li>
+        <li><span class="name"><a href="habit-ideas/">Habit ideas</a></span><p>40 ideas of good habits to build and bad ones to quit</p></li>
+        <li><span class="name"><a href="how-long-to-form-a-habit/">How long to form a habit</a></span><p>What research says about the 21-day myth, and why one missed day doesn’t matter</p></li>
+      </ul>
+    </section>
+    <!-- Friendly ads: the makers' other apps (Reliure, Arpente, Porcom, Dernier Verre), then Wibeset's web products. -->
+    <section>
+      <h2>You may also like.</h2>
+      <ul class="rows">
+        <li><span class="name"><a href="https://reliure.me/">Reliure</a></span><p>Your reading life, bound together</p></li>
+        <li><span class="name"><a href="https://arpente.app/">Arpente</a></span><p>Every step tells a story <span class="soon">(coming soon)</span></p></li>
+        <li><span class="name"><a href="https://porcom.app/">Porcom</a></span><p>A tiny journal for everything you watch</p></li>
+        <li><span class="name"><a href="https://dernierverre.app/">Dernier Verre</a></span><p>One more, perfectly mixed <span class="soon">(coming soon)</span></p></li>
+      </ul>
+    </section>
+    <section>
+      <h2>From the same makers.</h2>
+      <ul class="rows">
+        <li><span class="name"><a href="https://puuun.ch/">Puuunch</a></span><p>Time tracking and timesheets for small teams.</p></li>
+        <li><span class="name"><a href="https://makearesu.me/">Makearesu.me</a></span><p>Make a resume in 5 minutes</p></li>
+      </ul>
+    </section>
+    <footer>
+      <nav aria-label="Footer">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+        <a href="#guides">Guides</a>
+        <a href="fr/" hreflang="fr" lang="fr">Français</a>
+        <a href="es/" hreflang="es" lang="es">Español</a>
+      </nav>
+      <p>Made with <svg class="heart" viewBox="0 0 24 22" role="img" aria-label="love"><path d="M12 21.6 10.3 20C4.2 14.5 0 10.8 0 6.3 0 2.7 2.8 0 6.3 0c2 0 4 .9 5.7 2.5C13.7.9 15.7 0 17.7 0 21.2 0 24 2.7 24 6.3c0 4.5-4.2 8.2-10.3 13.7Z"/></svg> by <a href="https://wibeset.ca">Wibeset</a>. Developed in Canada.</p>
+    </footer>
   </main>
 
-  <footer>
-    <svg class="heart" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21.6 10.3 20C4.2 14.5 0 10.8 0 6.3 0 2.7 2.8 0 6.3 0c2 0 4 .9 5.7 2.5C13.7.9 15.7 0 17.7 0 21.2 0 24 2.7 24 6.3c0 4.5-4.2 8.2-10.3 13.7Z"/></svg>
-    <p>Made by <a href="https://wibeset.ca">Wibeset</a> · Developed in Canada in 2026</p>
-    <nav aria-label="Footer">
-      <a href="support/">Support</a>
-      <a href="privacy/">Privacy</a>
-      <a href="fr/" hreflang="fr" lang="fr">Français</a>
-    </nav>
-    <div class="wordmark-clip"><p class="wordmark" aria-hidden="true">Coutume</p></div>
-  </footer>
+  <!-- Captured from the simulator with sample habits (scripts/capture-screens.sh). main.js shows the screen of the section being read. -->
+  <aside class="preview" aria-label="Coutume on iPhone">
+    <div class="device">
+      <img src="assets/screens/fr/today.webp" width="750" height="1630" alt="The day: six habits, each with its ring" data-screen="today" fetchpriority="high" decoding="async">
+      <img src="assets/screens/fr/detail.webp" width="750" height="1630" alt="10,000 steps, filled in by Apple Health, with its streak and history" data-screen="detail" loading="lazy" decoding="async">
+      <img src="assets/screens/fr/quit.webp" width="750" height="1630" alt="A habit to quit: 12 days without energy drinks, $42 saved" data-screen="quit" loading="lazy" decoding="async">
+      <img src="assets/screens/fr/progress.webp" width="750" height="1630" alt="Progress: the level reached and the milestones earned" data-screen="progress" loading="lazy" decoding="async">
+      <img src="assets/screens/fr/calendar.webp" width="750" height="1630" alt="The calendar: the month, brighter as more habits were kept" data-screen="calendar" loading="lazy" decoding="async">
+    </div>
+  </aside>
+  </div>
+
   <script src="assets/main.js" defer></script>
 </body>
 </html>
