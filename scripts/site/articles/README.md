@@ -29,7 +29,7 @@ Fields:
 - **Apple Health** (read only) can fill in four habits on its own: steps, exercise minutes, mindful minutes, water.
 - Habits are **daily**. Streaks forgive one missed day per week. Eleven levels (Good intention → Legend; FR: Bonne intention → Légende), eighteen milestones, perfect days, a calendar of the month, Home Screen and Lock Screen widgets, iCloud sync, no account, free.
 - Each habit has a name and an icon.
-- Apple Health is called “Santé” in French and “Salud” in Spanish. The app itself is in English and French only (no Spanish yet): never say it is in Spanish.
+- Apple Health is called “Santé” in French and “Salud” in Spanish. The app is in French, English and Spanish.
 - Do NOT mention reminders, notifications, timers, notes, weekly or custom schedules, social features, or anything not listed. For something weekly or one-off (checking accounts, cancelling subscriptions), suggest a small daily version or a habit to quit instead.
 
 ## Voice and rules

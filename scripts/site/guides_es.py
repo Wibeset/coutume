@@ -13,7 +13,7 @@ ES = {
 "streaks": dict(
   slug="alternativa-streaks",
   title="Alternativa a Streaks: una app de hábitos gratis para iPhone — Coutume",
-  desc="¿Buscas una alternativa gratis a Streaks? Coutume sigue tus hábitos en iPhone: hábitos por crear y por dejar, Salud y una racha que perdona un día perdido. Sin cuenta, sin anuncios.",
+  desc="Una alternativa gratis a Streaks: Coutume sigue hábitos por crear y por dejar en iPhone, lee Salud y perdona un día perdido. Sin cuenta ni anuncios.",
   crumb="Alternativa a Streaks", guide="Coutume frente a Streaks, la app de hábitos de pago para dispositivos Apple",
   h1="Una alternativa gratis a Streaks",
   lede="Coutume sigue tus hábitos en iPhone. Conserva lo que gusta de Streaks, un toque para registrar, Salud y las rachas, y añade hábitos por dejar contados en días sin, niveles y logros. Gratis, sin cuenta, sin anuncios y sin suscripción.",
@@ -57,7 +57,7 @@ ES = {
 "habitify": dict(
   slug="alternativa-habitify",
   title="Alternativa a Habitify sin cuenta ni suscripción — Coutume",
-  desc="¿Buscas una alternativa a Habitify? Coutume sigue tus hábitos en iPhone gratis, sin límite de hábitos que desbloquear, sin cuenta y sin suscripción. Salud, hábitos por dejar y rachas que perdonan.",
+  desc="Una alternativa a Habitify sin límite de hábitos, sin cuenta ni suscripción: Coutume es gratis en iPhone, con Salud, hábitos por dejar y rachas que perdonan.",
   crumb="Alternativa a Habitify", guide="Coutume frente a Habitify, la app de hábitos con planes gratis y de pago",
   h1="Una alternativa a Habitify, sin cuenta ni suscripción",
   lede="Coutume sigue tus hábitos en iPhone, gratis. Sin cuenta que crear, sin plan que elegir y sin suscripción: tus hábitos se quedan en tu iPhone y en tu iCloud privado.",
@@ -99,7 +99,7 @@ ES = {
 "habitica": dict(
   slug="alternativa-habitica",
   title="Alternativa a Habitica: niveles sin juego de rol — Coutume",
-  desc="¿Buscas una alternativa más sencilla a Habitica? Coutume sigue tus hábitos en iPhone gratis, con niveles y logros, pero sin avatar, sin cuenta y sin grupo al que seguir el ritmo.",
+  desc="Una alternativa más sencilla a Habitica: Coutume sigue tus hábitos en iPhone gratis, con niveles y logros, sin avatar, sin cuenta y sin grupo.",
   crumb="Alternativa a Habitica", guide="Coutume frente a Habitica, la app de hábitos convertida en juego de rol",
   h1="Una alternativa a Habitica, con niveles pero sin juego de rol",
   lede="Habitica convierte tus hábitos en un juego de rol. Coutume conserva la satisfacción de subir de nivel y deja de lado el avatar, el oro y la cuenta: una app de hábitos gratis para iPhone, tranquila y privada.",
@@ -138,8 +138,8 @@ ES = {
 # ---------------------------------------------------------------- Features and uses
 "health": dict(
   slug="seguimiento-habitos-salud",
-  title="Seguimiento de hábitos con Salud: tus pasos y tu agua se registran solos — Coutume",
-  desc="Coutume sigue tus hábitos en iPhone gratis y lee la app Salud: tus pasos, minutos de ejercicio, minutos de atención plena y agua completan tus hábitos solos. Solo lectura, sin cuenta.",
+  title="Seguimiento de hábitos con Salud: pasos y agua, solos — Coutume",
+  desc="Coutume sigue tus hábitos en iPhone y lee Salud: pasos, ejercicio, atención plena y agua completan tus hábitos solos. Gratis, solo lectura, sin cuenta.",
   crumb="Seguimiento de hábitos con Salud", guide="Pasos, ejercicio, minutos de atención plena y agua, completados por Salud",
   h1="Una app de hábitos que Salud completa por ti",
   lede="Camina, y tu hábito de pasos se llena solo. Coutume lee cuatro tipos de datos de Salud para registrar tus hábitos por su cuenta, así que solo tocas para el resto. Gratis, sin cuenta y sin anuncios.",
@@ -167,8 +167,8 @@ ES = {
 
 "vaping": dict(
   slug="dejar-de-vapear",
-  title="App para dejar de vapear en iPhone: días sin y dinero ahorrado — Coutume",
-  desc="Una app gratis para dejar de vapear en iPhone: Coutume cuenta tus días sin vapear, el dinero que ahorras y los impulsos que resistes. Privada, sin cuenta y sin anuncios.",
+  title="App para dejar de vapear: días sin y dinero ahorrado — Coutume",
+  desc="Una app gratis para dejar de vapear en iPhone: Coutume cuenta tus días sin vapear, el dinero que ahorras y los impulsos que resistes. Sin cuenta.",
   crumb="Dejar de vapear", guide="Sigue tus días sin vapear, el dinero ahorrado y los impulsos resistidos",
   h1="Dejar de vapear, contando lo que ganas",
   lede="Crea “Sin vapear” como hábito por dejar, y Coutume cuenta cada día sin vapear, el dinero que ahorras y los impulsos que superas. Gratis, privada, en iPhone.",
@@ -182,8 +182,8 @@ ES = {
 
 "dayswithout": dict(
   slug="contador-dias-sin",
-  title="Contador de días sin para iPhone: para cualquier hábito que dejes — Coutume",
-  desc="Un contador de “días sin” gratis para iPhone: azúcar, café, redes sociales, bebidas energéticas. Coutume cuenta tus días sin, el dinero ahorrado y los impulsos resistidos. Sin cuenta.",
+  title="Contador de días sin para iPhone: cualquier hábito que dejes — Coutume",
+  desc="Un contador de “días sin” gratis para iPhone: azúcar, café, redes sociales. Coutume cuenta tus días sin, el dinero ahorrado y los impulsos resistidos.",
   crumb="Contador de días sin", guide="Un contador de días sin para todo lo que quieras dejar",
   h1="Un contador de “días sin” para todo lo que dejas",
   lede="El azúcar, el café, las redes de madrugada, las bebidas energéticas: ponle nombre a lo que quieres dejar, y Coutume cuenta tus días sin. Una app de hábitos gratis para iPhone, sin cuenta y sin anuncios.",
@@ -197,7 +197,7 @@ ES = {
 "water": dict(
   slug="seguimiento-agua",
   title="Seguimiento de agua en iPhone: 8 vasos al día, con un toque — Coutume",
-  desc="Sigue el agua que bebes en iPhone: toca un anillo por cada vaso, o deja que Salud lo complete. Coutume es una app de hábitos gratis, con rachas, niveles y sin cuenta.",
+  desc="Sigue el agua que bebes en iPhone: toca un anillo por cada vaso, o deja que Salud lo complete. Gratis, con rachas y niveles, sin cuenta.",
   crumb="Seguimiento de agua", guide="Cuenta tus vasos de agua con un toque, o deja que Salud lo haga",
   h1="Seguir tu agua, un toque por vaso",
   lede="Fija un objetivo diario, como 8 vasos de agua, y toca el anillo cada vez que bebas. O deja que Salud lo complete. Coutume es una app de hábitos gratis para iPhone, sin cuenta y sin anuncios.",
@@ -210,8 +210,8 @@ ES = {
 
 "free": dict(
   slug="app-habitos-gratis",
-  title="App de hábitos gratis para iPhone: sin cuenta, sin anuncios, sin suscripción — Coutume",
-  desc="Coutume es una app de hábitos realmente gratis para iPhone: sin suscripción, sin anuncios, sin cuenta y sin límite de hábitos que desbloquear. Hábitos por crear y por dejar, Salud y widgets.",
+  title="App de hábitos gratis para iPhone: sin cuenta ni anuncios — Coutume",
+  desc="Una app de hábitos realmente gratis para iPhone: sin suscripción, sin anuncios, sin cuenta ni límite. Hábitos por crear y por dejar, Salud y widgets.",
   crumb="App de hábitos gratis", guide="Gratis de verdad: sin suscripción, sin anuncios, sin cuenta",
   h1="Una app de hábitos gratis de verdad",
   lede="Sin prueba que se acaba, sin un cuarto hábito tras un pago, sin anuncios entre tus anillos. Coutume es una app de hábitos gratis para iPhone, sin cuenta y sin suscripción.",
@@ -224,8 +224,8 @@ ES = {
 
 "widget": dict(
   slug="widget-habitos",
-  title="Widget de hábitos para iPhone: tus anillos en la pantalla de inicio — Coutume",
-  desc="Mira tus hábitos sin abrir ninguna app: los widgets de Coutume muestran los anillos del día y tu racha de días perfectos en la pantalla de inicio y la pantalla bloqueada. Gratis, sin cuenta.",
+  title="Widget de hábitos: tus anillos en la pantalla de inicio — Coutume",
+  desc="Mira tus hábitos sin abrir la app: los widgets de Coutume muestran los anillos del día y tu racha en la pantalla de inicio y la pantalla bloqueada.",
   crumb="Widget de hábitos", guide="Los anillos del día en tu pantalla de inicio y tu pantalla bloqueada",
   h1="Tus hábitos, directamente en tu pantalla de inicio",
   lede="Los widgets de Coutume muestran los anillos del día y tu racha de días perfectos en tu pantalla de inicio, y también caben en la pantalla bloqueada. Una app de hábitos gratis para iPhone, sin cuenta y sin anuncios.",
@@ -238,8 +238,8 @@ ES = {
 # ---------------------------------------------------------------- Articles
 "ideas": dict(
   slug="ideas-habitos",
-  title="40 ideas de hábitos: buenos hábitos por crear y malos por dejar — Coutume",
-  desc="¿No sabes qué hábitos seguir? 40 ideas de buenos hábitos por crear y malos hábitos por dejar, para la salud, el sueño, la mente y el dinero, con consejos para mantenerlos.",
+  title="40 ideas de hábitos: buenos por crear y malos por dejar — Coutume",
+  desc="40 ideas de buenos hábitos por crear y malos por dejar, para la salud, el sueño, la mente y el dinero, con consejos para mantener cada uno.",
   crumb="Ideas de hábitos", guide="40 ideas de buenos hábitos por crear y malos por dejar",
   h1="40 ideas de hábitos, por crear y por dejar",
   lede="¿No sabes qué hábitos seguir? Aquí tienes cuarenta ideas, ordenadas por tema. Elige dos o tres, no diez: los hábitos pequeños que mantienes valen más que los grandes que abandonas.",
@@ -316,7 +316,7 @@ ES = {
 "howlong": dict(
   slug="cuanto-tarda-un-habito",
   title="¿Cuánto se tarda en formar un hábito? No son 21 días — Coutume",
-  desc="Formar un hábito lleva 66 días de media, no 21, y entre 18 y 254 días según el caso. Lo que dice la investigación, y por qué perder un día no arruina tu progreso.",
+  desc="Formar un hábito lleva 66 días de media, no 21, y entre 18 y 254 días. Lo que dice la investigación, y por qué perder un día no arruina tu progreso.",
   crumb="Cuánto tarda un hábito", guide="Lo que dice la investigación sobre el mito de los 21 días, y por qué un día perdido no importa",
   h1="¿Cuánto se tarda en formar un hábito?",
   lede="Unos 66 días de media, no 21. Y varía mucho: de 18 días a más de 250, según la persona y el hábito. La buena noticia: perder un día no te devuelve a cero.",
@@ -325,7 +325,7 @@ ES = {
       <p>La cifra de “21 días” se remonta a los años sesenta, a un cirujano plástico, Maxwell Maltz, que observó que sus pacientes tardaban como mínimo unos 21 días en acostumbrarse a un cambio. Era una observación, no una medición de hábitos, y con los años “un mínimo de 21 días” se convirtió en “21 días”.</p>
 
       <h2>Lo que encontró la investigación</h2>
-      <p>En un estudio publicado en 2009, un equipo del University College London dirigido por Phillippa Lally siguió a 96 personas durante 84 días. Cada una eligió una nueva conducta diaria, como beber un vaso de agua con el almuerzo o salir a correr antes de cenar, e indicó cada día hasta qué punto le resultaba automática.</p>
+      <p>En un estudio publicado en línea en 2009 (en papel en 2010), un equipo del University College London dirigido por Phillippa Lally siguió a 96 personas durante 84 días. Cada una eligió una nueva conducta diaria, como beber un vaso de agua con el almuerzo o salir a correr antes de cenar, e indicó cada día hasta qué punto le resultaba automática.</p>
       <ul>
         <li>De media, la conducta tardó <strong>66 días</strong> en volverse tan automática como iba a llegar a ser.</li>
         <li>El rango fue amplio: de <strong>18 días</strong> a unos <strong>254 días</strong> estimados.</li>

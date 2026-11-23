@@ -1,6 +1,7 @@
 ARTICLES = [
 dict(
   key="sugarydrinks", theme="quit", kind="quit", health=None,
+  sources=[("CDC — Rethink Your Drink", "https://www.cdc.gov/healthy-weight-growth/rethink-your-drink/index.html")],
   en=dict(
     slug="quit-sugary-drinks",
     crumb="No sugary drinks",
@@ -27,7 +28,7 @@ dict(
   fr=dict(
     slug="arreter-les-boissons-sucrees",
     crumb="Pas de boissons sucrées",
-    title="Comment arrêter les boissons sucrées (boissons gazeuses et jus) — Coutume",
+    title="Arrêter les boissons sucrées : boissons gazeuses et jus — Coutume",
     desc="Arrêter les boissons gazeuses et les jus : repérer tes moments, garder un bon remplacement au frais, compter les jours sans. Et quoi faire après un écart.",
     h1="Comment arrêter les boissons sucrées",
     lede="Les boissons gazeuses et les jus ne ressemblent pas à une habitude. On dirait plutôt une petite gâterie, un remontant ou ce qui vient avec le repas, et c’est pour ça qu’on les boit sans vraiment décider.",
@@ -77,7 +78,7 @@ dict(
     slug="stop-snacking-at-night",
     crumb="No snacking after dinner",
     title="How to Stop Snacking at Night (After Dinner) — Coutume",
-    desc="How to stop snacking after dinner: close the kitchen, find what the snack is really for, change your evening. And what to do the night you open the chips anyway.",
+    desc="How to stop snacking after dinner: close the kitchen, find what the snack is really for, change your evening. And the night you open the chips anyway.",
     h1="How to stop snacking at night",
     lede="Snacking after dinner is rarely about hunger. It’s about the couch, the screen, the end of a long day, and a pantry that happens to be twenty steps away.",
     why="A clear end to eating gives your evening a shape: dinner, then the kitchen is done. It saves a bit of grocery money, and many people simply like going to bed without that heavy, too-full feeling.",
@@ -145,6 +146,7 @@ dict(
 ),
 dict(
   key="coffee", theme="quit", kind="quit", health=None,
+  sources=[("FDA — Spilling the Beans: How Much Caffeine is Too Much?", "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much"), ("Cleveland Clinic — Is It Bad To Drink Coffee Late at Night?", "https://health.clevelandclinic.org/drinking-coffee-late-at-night")],
   en=dict(
     slug="no-coffee-after-noon",
     crumb="No coffee after noon",
@@ -361,6 +363,7 @@ dict(
 ),
 dict(
   key="doomscroll", theme="quit", kind="quit", health=None,
+  sources=[("NHS — How to fall asleep faster and sleep better", "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/"), ("NIGMS (NIH) — Circadian Rhythms", "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms")],
   en=dict(
     slug="stop-doomscrolling",
     crumb="No doomscrolling in bed",
@@ -577,6 +580,7 @@ dict(
 ),
 dict(
   key="nails", theme="quit", kind="quit", health=None,
+  sources=[("American Academy of Dermatology — How to stop biting your nails", "https://www.aad.org/public/everyday-care/nail-care-secrets/basics/stop-biting-nails")],
   en=dict(
     slug="stop-biting-nails",
     crumb="Stop biting your nails",
@@ -649,6 +653,7 @@ dict(
 ),
 dict(
   key="snooze", theme="quit", kind="quit", health=None,
+  sources=[("Cleveland Clinic — Sleep Inertia: What It Is and How To Get Rid of It", "https://health.clevelandclinic.org/sleep-inertia"), ("Cleveland Clinic — Is Snoozing Your Alarm OK?", "https://health.clevelandclinic.org/snoozing-alarm-health-impact")],
   en=dict(
     slug="stop-hitting-snooze",
     crumb="Stop hitting snooze",

@@ -14,7 +14,7 @@ PAGES = [
 dict(key="streaks", layout="plain", en_slug="streaks-alternative", fr_slug="alternative-streaks",
 en=dict(
   title="Streaks Alternative: A Free Habit Tracker for iPhone — Coutume",
-  desc="Looking for a free alternative to Streaks? Coutume is a habit tracker for iPhone with habits to build and to quit, Apple Health, and a streak that forgives a missed day. No account, no ads.",
+  desc="A free alternative to Streaks: Coutume tracks habits to build and to quit on iPhone, reads Apple Health and forgives a missed day. No account, no ads.",
   crumb="Streaks alternative", guide="Compare Coutume with Streaks, the paid habit tracker for Apple devices",
   h1="A free alternative to Streaks",
   lede="Coutume is a habit tracker for iPhone that keeps what people like about Streaks, one tap to log, Apple Health and streaks, and adds habits to quit counted in days without, levels and milestones. Free, with no account, no ads and no subscription.",
@@ -55,8 +55,8 @@ en=dict(
       <p>Coutume doesn’t import from Streaks: add your habits again, it takes a few seconds each. Habits filled in by Apple Health catch up on their own, since Coutume reads the last seven days each time you open it.</p>
 """),
 fr=dict(
-  title="Alternative à Streaks : une app d’habitudes gratuite pour iPhone — Coutume",
-  desc="Tu cherches une alternative gratuite à Streaks ? Coutume suit tes habitudes sur iPhone : à prendre et à éviter, avec Santé et une séquence qui pardonne un jour manqué. Sans compte, sans pub.",
+  title="Alternative à Streaks : app d’habitudes gratuite pour iPhone — Coutume",
+  desc="Une alternative gratuite à Streaks : Coutume suit tes habitudes à prendre et à éviter sur iPhone, lit Santé et pardonne un jour manqué. Sans compte.",
   crumb="Alternative à Streaks", guide="Coutume comparée à Streaks, l’app d’habitudes payante pour appareils Apple",
   h1="Une alternative gratuite à Streaks",
   lede="Coutume suit tes habitudes sur iPhone. Elle garde ce qu’on aime de Streaks, un toucher pour noter, Santé et les séquences, et y ajoute les habitudes à éviter comptées en jours sans, des niveaux et des jalons. Gratuite, sans compte, sans pub et sans abonnement.",
@@ -100,7 +100,7 @@ fr=dict(
 dict(key="habitify", layout="plain", en_slug="habitify-alternative", fr_slug="alternative-habitify",
 en=dict(
   title="Habitify Alternative Without an Account or Subscription — Coutume",
-  desc="Looking for a Habitify alternative? Coutume is a free habit tracker for iPhone with no habit limit to unlock, no account and no subscription. Apple Health, habits to quit and forgiving streaks.",
+  desc="A Habitify alternative with no habit limit, no account and no subscription: Coutume is free on iPhone, with Apple Health, habits to quit, forgiving streaks.",
   crumb="Habitify alternative", guide="Compare Coutume with Habitify, the habit tracker with free and paid plans",
   h1="A Habitify alternative, without an account or subscription",
   lede="Coutume is a free habit tracker for iPhone. No account to create, no plan to choose and no subscription: your habits stay on your iPhone and in your private iCloud.",
@@ -140,7 +140,7 @@ en=dict(
 """),
 fr=dict(
   title="Alternative à Habitify sans compte ni abonnement — Coutume",
-  desc="Tu cherches une alternative à Habitify ? Coutume suit tes habitudes sur iPhone, gratuitement : aucune limite à débloquer, sans compte ni abonnement. Santé, habitudes à éviter et séquences indulgentes.",
+  desc="Une alternative à Habitify sans limite, sans compte ni abonnement : Coutume est gratuite sur iPhone, avec Santé, habitudes à éviter et séquences indulgentes.",
   crumb="Alternative à Habitify", guide="Coutume comparée à Habitify, l’app d’habitudes aux forfaits gratuit et payants",
   h1="Une alternative à Habitify, sans compte ni abonnement",
   lede="Coutume suit tes habitudes sur iPhone, gratuitement. Pas de compte à créer, pas de forfait à choisir, pas d’abonnement : tes habitudes restent sur ton iPhone et dans ton iCloud privé.",
@@ -182,7 +182,7 @@ fr=dict(
 dict(key="habitica", layout="plain", en_slug="habitica-alternative", fr_slug="alternative-habitica",
 en=dict(
   title="Habitica Alternative: Levels Without the Role-Playing Game — Coutume",
-  desc="Looking for a simpler Habitica alternative? Coutume is a free habit tracker for iPhone with levels and milestones, but no avatar, no account and no party to keep up with.",
+  desc="A simpler Habitica alternative: Coutume is a free habit tracker for iPhone with levels and milestones, but no avatar, no account and no party to keep up with.",
   crumb="Habitica alternative", guide="Compare Coutume with Habitica, the habit tracker played as a role-playing game",
   h1="A Habitica alternative, with levels but no role-playing game",
   lede="Habitica turns your habits into a role-playing game. Coutume keeps the reward of levelling up, and drops the avatar, the gold and the account: a free habit tracker for iPhone, quiet and private.",
@@ -219,7 +219,7 @@ en=dict(
 """),
 fr=dict(
   title="Alternative à Habitica : des niveaux sans jeu de rôle — Coutume",
-  desc="Tu cherches une alternative plus simple à Habitica ? Coutume suit tes habitudes sur iPhone, gratuitement, avec des niveaux et des jalons, mais sans avatar, sans compte et sans équipe à suivre.",
+  desc="Une alternative plus simple à Habitica : Coutume suit tes habitudes sur iPhone, gratuitement, avec niveaux et jalons, sans avatar, sans compte ni équipe.",
   crumb="Alternative à Habitica", guide="Coutume comparée à Habitica, l’app d’habitudes en forme de jeu de rôle",
   h1="Une alternative à Habitica, avec des niveaux mais sans jeu de rôle",
   lede="Habitica transforme tes habitudes en jeu de rôle. Coutume garde le plaisir de monter de niveau, et laisse tomber l’avatar, l’or et le compte : une app d’habitudes gratuite pour iPhone, calme et privée.",
@@ -258,8 +258,8 @@ fr=dict(
 # ---------------------------------------------------------------- Features and uses
 dict(key="health", layout="split", en_slug="habit-tracker-apple-health", fr_slug="suivi-habitudes-sante",
 en=dict(
-  title="Habit Tracker with Apple Health: Steps and Water Log Themselves — Coutume",
-  desc="Coutume is a free habit tracker for iPhone that reads Apple Health: your steps, exercise minutes, mindful minutes and water fill in your habits on their own. Read only, no account.",
+  title="Habit Tracker with Apple Health: Steps Log Themselves — Coutume",
+  desc="A free iPhone habit tracker that reads Apple Health: steps, exercise, mindful minutes and water fill in your habits on their own. Read only, no account.",
   crumb="Apple Health habit tracker", guide="Steps, exercise, mindful minutes and water, filled in by Apple Health",
   h1="A habit tracker that Apple Health fills in for you",
   lede="Walk, and your steps habit fills itself. Coutume reads four kinds of data from Apple Health to log your habits on its own, so you only tap for the rest. Free, with no account and no ads.",
@@ -270,8 +270,8 @@ en=dict(
     ("calendar", "Read only, and private", "<p>Coutume never writes to Health, and never reads anything you didn’t allow. The daily totals stay on your iPhone and in your private iCloud: they are never sent to us or used for advertising. You can change what Coutume reads at any time in Settings › Privacy &amp; Security › Health › Coutume.</p>"),
   ]),
 fr=dict(
-  title="Suivi d’habitudes avec Santé : tes pas et ton eau se notent seuls — Coutume",
-  desc="Coutume suit tes habitudes sur iPhone, gratuitement, et lit l’app Santé : tes pas, ton exercice, ta pleine conscience et ton eau remplissent tes habitudes tout seuls. En lecture seule, sans compte.",
+  title="Suivi d’habitudes avec Santé : tes pas se notent seuls — Coutume",
+  desc="Coutume suit tes habitudes sur iPhone et lit Santé : pas, exercice, pleine conscience et eau remplissent tes habitudes seuls. Gratuite, sans compte.",
   crumb="Suivi d’habitudes avec Santé", guide="Pas, exercice, pleine conscience et eau, remplis par Santé",
   h1="Une app d’habitudes que Santé remplit pour toi",
   lede="Marche, et ton habitude de pas se remplit seule. Coutume lit quatre types de données dans Santé pour noter tes habitudes à ta place : tu ne touches que pour le reste. Gratuite, sans compte et sans pub.",
@@ -298,7 +298,7 @@ en=dict(
   extra="<p class=\"note\">Coutume is a habit tracker, not a medical app. If you are worried about your caffeine intake, talk to a doctor or a pharmacist.</p>"),
 fr=dict(
   title="Arrêter les boissons énergisantes : compte tes jours sans — Coutume",
-  desc="Tu veux arrêter les boissons énergisantes ? Coutume compte tes jours sans, l’argent économisé et les envies résistées, sur iPhone. Gratuite, privée, sans compte.",
+  desc="Arrêter les boissons énergisantes : Coutume compte tes jours sans, l’argent économisé et les envies résistées, sur iPhone. Gratuite et sans compte.",
   crumb="Arrêter les boissons énergisantes", guide="Compte tes jours sans boisson énergisante et l’argent économisé",
   h1="Arrêter les boissons énergisantes, un jour à la fois",
   lede="Coutume suit tes habitudes sur iPhone, gratuitement, avec un type d’habitude fait pour arrêter : elle compte tes jours sans boisson énergisante, l’argent économisé et les envies résistées. Sans compte, sans pub.",
@@ -313,7 +313,7 @@ fr=dict(
 dict(key="vaping", layout="split", en_slug="quit-vaping-tracker", fr_slug="arreter-de-vapoter",
 en=dict(
   title="Quit Vaping Tracker for iPhone: Days Without, Money Saved — Coutume",
-  desc="A free quit vaping tracker for iPhone: Coutume counts your days without vaping, the money you save and the urges you resist. Private, with no account and no ads.",
+  desc="A free quit vaping tracker for iPhone: Coutume counts your days without vaping, the money you save and the urges you resist. No account, no ads.",
   crumb="Quit vaping tracker", guide="Track your days without vaping, the money saved and the urges resisted",
   h1="A quit vaping tracker that counts what you gain",
   lede="Set “No vaping” as a habit to quit, and Coutume counts every day without it, the money you save and the urges you get through. Free, private, on iPhone.",
@@ -325,8 +325,8 @@ en=dict(
   ],
   extra="<p class=\"note\">Coutume is a habit tracker, not a medical app or a quit-smoking program. For help to stop vaping, talk to a doctor, a pharmacist or your local quit line.</p>"),
 fr=dict(
-  title="Arrêter de vapoter : compte tes jours sans et l’argent économisé — Coutume",
-  desc="Une app gratuite pour arrêter de vapoter sur iPhone : Coutume compte tes jours sans vapoter, l’argent économisé et les envies résistées. Privée, sans compte et sans pub.",
+  title="Arrêter de vapoter : tes jours sans et l’argent économisé — Coutume",
+  desc="Une app gratuite pour arrêter de vapoter sur iPhone : Coutume compte tes jours sans vapoter, l’argent économisé et les envies résistées. Sans compte.",
   crumb="Arrêter de vapoter", guide="Tes jours sans vapoter, l’argent économisé et les envies résistées",
   h1="Arrêter de vapoter, en comptant ce que tu gagnes",
   lede="Crée « Zéro vapotage » comme habitude à éviter, et Coutume compte chaque journée sans, l’argent économisé et les envies que tu traverses. Gratuite, privée, sur iPhone.",
@@ -341,7 +341,7 @@ fr=dict(
 dict(key="dayswithout", layout="split", en_slug="days-without-counter", fr_slug="compteur-jours-sans",
 en=dict(
   title="Days Without Counter for iPhone: Track Any Habit You Quit — Coutume",
-  desc="A free “days without” counter for iPhone: sugar, coffee, social media, energy drinks. Coutume counts your days without, the money saved and the urges resisted. No account.",
+  desc="A free “days without” counter for iPhone: sugar, coffee, social media, energy drinks. Count your days without, the money saved and the urges resisted.",
   crumb="Days without counter", guide="A days-without counter for anything you want to quit",
   h1="A “days without” counter for anything you quit",
   lede="Sugar, coffee, late-night scrolling, energy drinks: name what you want to quit, and Coutume counts your days without it. A free habit tracker for iPhone, with no account and no ads.",
@@ -352,8 +352,8 @@ en=dict(
     ("calendar", "Several at once", "<p>Quit more than one thing, and build good habits beside them: they all share your day, your calendar and your levels.</p>"),
   ]),
 fr=dict(
-  title="Compteur de jours sans pour iPhone : pour tout ce que tu arrêtes — Coutume",
-  desc="Un compteur de jours sans, gratuit pour iPhone : sucre, café, réseaux sociaux, boissons énergisantes. Coutume compte tes jours sans, l’argent économisé et les envies résistées. Sans compte.",
+  title="Compteur de jours sans pour iPhone : tout ce que tu arrêtes — Coutume",
+  desc="Un compteur de jours sans gratuit pour iPhone : sucre, café, réseaux sociaux. Coutume compte tes jours sans, l’argent économisé et les envies résistées.",
   crumb="Compteur de jours sans", guide="Un compteur de jours sans pour tout ce que tu veux arrêter",
   h1="Un compteur de « jours sans » pour tout ce que tu arrêtes",
   lede="Le sucre, le café, les réseaux le soir, les boissons énergisantes : nomme ce que tu veux arrêter, et Coutume compte tes jours sans. Une app d’habitudes gratuite pour iPhone, sans compte et sans pub.",
@@ -379,7 +379,7 @@ en=dict(
   ]),
 fr=dict(
   title="Suivi de l’eau sur iPhone : 8 verres par jour, d’un toucher — Coutume",
-  desc="Suis l’eau que tu bois sur iPhone : touche l’anneau à chaque verre, ou laisse Santé le remplir. Coutume suit tes habitudes gratuitement, avec séquences et niveaux, sans compte.",
+  desc="Suis l’eau que tu bois sur iPhone : touche l’anneau à chaque verre, ou laisse Santé le remplir. Gratuite, avec séquences et niveaux, sans compte.",
   crumb="Suivi de l’eau", guide="Compte tes verres d’eau d’un toucher, ou laisse Santé le faire",
   h1="Suivre ton eau, un toucher par verre",
   lede="Fixe un objectif quotidien, comme 8 verres d’eau, et touche l’anneau chaque fois que tu bois. Ou laisse Santé le remplir. Coutume suit tes habitudes sur iPhone, gratuitement, sans compte et sans pub.",
@@ -392,8 +392,8 @@ fr=dict(
 
 dict(key="free", layout="split", en_slug="free-habit-tracker", fr_slug="application-habitudes-gratuite",
 en=dict(
-  title="Free Habit Tracker for iPhone: No Account, No Ads, No Subscription — Coutume",
-  desc="Coutume is a truly free habit tracker for iPhone: no subscription, no ads, no account and no habit limit to unlock. Habits to build and to quit, Apple Health and widgets.",
+  title="Free Habit Tracker for iPhone: No Account, No Ads — Coutume",
+  desc="A truly free habit tracker for iPhone: no subscription, no ads, no account, no habit limit. Habits to build and to quit, Apple Health and widgets.",
   crumb="Free habit tracker", guide="Free for real: no subscription, no ads, no account",
   h1="A habit tracker that is free for real",
   lede="No trial that ends, no fourth habit behind a paywall, no ads between your rings. Coutume is a free habit tracker for iPhone, with no account and no subscription.",
@@ -404,8 +404,8 @@ en=dict(
     ("calendar", "Why it’s free", "<p>Coutume is made by Wibeset, a small studio in Canada that makes apps it wants to use itself, like Reliure for reading. It is free because a habit tracker shouldn’t cost you a subscription.</p>"),
   ]),
 fr=dict(
-  title="App d’habitudes gratuite pour iPhone : sans compte, sans pub, sans abonnement — Coutume",
-  desc="Coutume est une app d’habitudes vraiment gratuite pour iPhone : sans abonnement, sans pub, sans compte et sans limite à débloquer. Habitudes à prendre et à éviter, Santé et widgets.",
+  title="App d’habitudes gratuite pour iPhone : sans compte ni pub — Coutume",
+  desc="Une app d’habitudes vraiment gratuite pour iPhone : sans abonnement, sans pub, sans compte ni limite. Habitudes à prendre et à éviter, Santé, widgets.",
   crumb="App d’habitudes gratuite", guide="Gratuite pour vrai : sans abonnement, sans pub, sans compte",
   h1="Une app d’habitudes gratuite pour vrai",
   lede="Pas d’essai qui se termine, pas de quatrième habitude derrière un paiement, pas de pub entre tes anneaux. Coutume suit tes habitudes sur iPhone, gratuitement, sans compte ni abonnement.",
@@ -418,8 +418,8 @@ fr=dict(
 
 dict(key="widget", layout="split", en_slug="habit-tracker-widget", fr_slug="widget-habitudes",
 en=dict(
-  title="Habit Tracker Widget for iPhone: Your Rings on the Home Screen — Coutume",
-  desc="See your habits without opening an app: Coutume’s widgets show the day’s rings and your streak of perfect days on the Home Screen and Lock Screen. Free, no account.",
+  title="Habit Tracker Widget for iPhone: Rings on Your Home Screen — Coutume",
+  desc="See your habits without opening an app: Coutume’s widgets show the day’s rings and your streak of perfect days on the Home Screen and Lock Screen.",
   crumb="Habit tracker widget", guide="The day’s rings on your Home Screen and Lock Screen",
   h1="Your habits, right on your Home Screen",
   lede="Coutume’s widgets show the day’s rings and your streak of perfect days on your Home Screen, and fit on the Lock Screen too. A free habit tracker for iPhone, with no account and no ads.",
@@ -429,8 +429,8 @@ en=dict(
     ("today", "Add the widget", "<p>Touch and hold your Home Screen, tap <strong>Edit</strong> › <strong>Add Widget</strong>, then choose Coutume. On the Lock Screen, touch and hold it, tap <strong>Customize</strong>, then add Coutume to the widgets under the clock.</p>"),
   ]),
 fr=dict(
-  title="Widget d’habitudes pour iPhone : tes anneaux sur l’écran d’accueil — Coutume",
-  desc="Vois tes habitudes sans ouvrir d’app : les widgets de Coutume montrent les anneaux du jour et ta séquence de journées parfaites sur l’écran d’accueil et l’écran verrouillé. Gratuite, sans compte.",
+  title="Widget d’habitudes : tes anneaux sur l’écran d’accueil — Coutume",
+  desc="Vois tes habitudes sans ouvrir d’app : les widgets de Coutume montrent les anneaux du jour et ta séquence sur l’écran d’accueil et l’écran verrouillé.",
   crumb="Widget d’habitudes", guide="Les anneaux du jour sur ton écran d’accueil et ton écran verrouillé",
   h1="Tes habitudes, directement sur ton écran d’accueil",
   lede="Les widgets de Coutume montrent les anneaux du jour et ta séquence de journées parfaites sur ton écran d’accueil, et se placent aussi sur l’écran verrouillé. Une app d’habitudes gratuite pour iPhone, sans compte et sans pub.",
@@ -518,8 +518,8 @@ en=dict(
       </ul>
 """),
 fr=dict(
-  title="40 idées d’habitudes : les bonnes à prendre et les mauvaises à laisser — Coutume",
-  desc="Tu ne sais pas quelles habitudes suivre ? 40 idées de bonnes habitudes à prendre et de mauvaises à laisser, pour la santé, le sommeil, la tête et l’argent, avec des astuces pour les garder.",
+  title="40 idées d’habitudes : bonnes à prendre, mauvaises à laisser — Coutume",
+  desc="40 idées de bonnes habitudes à prendre et de mauvaises à laisser, pour la santé, le sommeil, la tête et l’argent, avec des astuces pour les garder.",
   crumb="Idées d’habitudes", guide="40 idées de bonnes habitudes à prendre et de mauvaises à laisser",
   h1="40 idées d’habitudes, à prendre et à laisser",
   lede="Tu ne sais pas quelles habitudes suivre ? Voici quarante idées, classées par thème. Choisis-en deux ou trois, pas dix : de petites habitudes que tu gardes valent mieux que de grandes que tu abandonnes.",
@@ -596,7 +596,7 @@ fr=dict(
 dict(key="howlong", layout="plain", en_slug="how-long-to-form-a-habit", fr_slug="combien-de-temps-pour-une-habitude",
 en=dict(
   title="How Long Does It Take to Form a Habit? Not 21 Days — Coutume",
-  desc="It takes 66 days on average to form a habit, not 21, and anywhere from 18 to 254 days. What the research says, and why missing one day doesn’t ruin your progress.",
+  desc="It takes 66 days on average to form a habit, not 21, and from 18 to 254 days. What the research says, and why missing one day doesn’t ruin your progress.",
   crumb="How long to form a habit", guide="What research says about the 21-day myth, and why one missed day doesn’t matter",
   h1="How long does it take to form a habit?",
   lede="About 66 days on average, not 21. And it varies a lot: from 18 days to more than 250, depending on the person and the habit. The good news: missing a day doesn’t send you back to zero.",
@@ -605,7 +605,7 @@ en=dict(
       <p>The “21 days” figure goes back to the 1960s, to a plastic surgeon, Maxwell Maltz, who noticed that his patients took a minimum of about 21 days to get used to a change. It was an observation, not a measurement of habits, and “a minimum of 21 days” became “21 days” over the years.</p>
 
       <h2>What the research found</h2>
-      <p>In a study published in 2009, a team at University College London led by Phillippa Lally followed 96 people for 84 days. Each chose a new daily behaviour, like drinking a glass of water with lunch or going for a run before dinner, and reported every day how automatic it felt.</p>
+      <p>In a study published online in 2009 (in print in 2010), a team at University College London led by Phillippa Lally followed 96 people for 84 days. Each chose a new daily behaviour, like drinking a glass of water with lunch or going for a run before dinner, and reported every day how automatic it felt.</p>
       <ul>
         <li>On average, it took <strong>66 days</strong> for the behaviour to become as automatic as it would get.</li>
         <li>The range was wide: from <strong>18 days</strong> to an estimated <strong>254 days</strong>.</li>
@@ -627,7 +627,7 @@ en=dict(
 """),
 fr=dict(
   title="Combien de temps pour prendre une habitude ? Pas 21 jours — Coutume",
-  desc="Il faut en moyenne 66 jours pour prendre une habitude, pas 21, et de 18 à 254 jours selon les cas. Ce que dit la recherche, et pourquoi manquer une journée ne ruine pas tes progrès.",
+  desc="En moyenne 66 jours pour prendre une habitude, pas 21, et de 18 à 254 jours. Ce que dit la recherche, et pourquoi un jour manqué ne ruine pas tes progrès.",
   crumb="Combien de temps pour une habitude", guide="Ce que dit la recherche sur le mythe des 21 jours, et pourquoi un jour manqué ne compte pas",
   h1="Combien de temps faut-il pour prendre une habitude ?",
   lede="Environ 66 jours en moyenne, pas 21. Et ça varie beaucoup : de 18 jours à plus de 250, selon la personne et l’habitude. La bonne nouvelle : manquer une journée ne te ramène pas à zéro.",
@@ -636,7 +636,7 @@ fr=dict(
       <p>Le chiffre de « 21 jours » remonte aux années 1960, à un chirurgien plastique, Maxwell Maltz, qui avait remarqué que ses patients mettaient au moins 21 jours environ à s’habituer à un changement. C’était une observation, pas une mesure des habitudes, et « au moins 21 jours » est devenu « 21 jours » avec les années.</p>
 
       <h2>Ce que la recherche a trouvé</h2>
-      <p>Dans une étude publiée en 2009, une équipe de l’University College London menée par Phillippa Lally a suivi 96 personnes pendant 84 jours. Chacune avait choisi un nouveau geste quotidien, comme boire un verre d’eau au dîner ou courir avant le souper, et notait chaque jour à quel point il lui semblait automatique.</p>
+      <p>Dans une étude publiée en ligne en 2009 (sur papier en 2010), une équipe de l’University College London menée par Phillippa Lally a suivi 96 personnes pendant 84 jours. Chacune avait choisi un nouveau geste quotidien, comme boire un verre d’eau au dîner ou courir avant le souper, et notait chaque jour à quel point il lui semblait automatique.</p>
       <ul>
         <li>En moyenne, il a fallu <strong>66 jours</strong> pour que le geste devienne aussi automatique qu’il allait l’être.</li>
         <li>L’écart était grand : de <strong>18 jours</strong> à environ <strong>254 jours</strong>, selon les estimations.</li>

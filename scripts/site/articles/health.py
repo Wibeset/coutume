@@ -1,6 +1,7 @@
 ARTICLES = [
 dict(
   key="steps", theme="health", kind="build", health="steps",
+  sources=[("NHS — Walking for health", "https://www.nhs.uk/live-well/exercise/walking-for-health/")],
   en=dict(
     slug="walk-10000-steps",
     crumb="Walk 10,000 steps a day",
@@ -73,11 +74,12 @@ dict(
 ),
 dict(
   key="exercise", theme="health", kind="build", health="exercise",
+  sources=[("NHS — Physical activity guidelines for adults aged 19 to 64", "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/"), ("CDC — Benefits of Physical Activity", "https://www.cdc.gov/physical-activity-basics/benefits/index.html")],
   en=dict(
     slug="exercise-every-day",
     crumb="Move 30 minutes a day",
     title="How to Exercise 30 Minutes a Day (Without a Gym) — Coutume",
-    desc="How to move 30 minutes a day when your days are full: pick something you like, split it into short sessions, keep a fixed time. And what to do on low-energy days.",
+    desc="How to move 30 minutes a day when your days are full: pick something you like, split it into short sessions, keep a fixed time. And the low-energy days.",
     h1="How to exercise 30 minutes every day",
     lede="Most people who stop exercising didn’t stop liking it: they planned something too big, missed a few days and never restarted. Thirty minutes fits into almost any day, if you let it be ordinary.",
     why="Many people find they sleep better and have more energy on the days they move. A daily habit is also easier to keep than three gym sessions a week, because there’s no question of which day it is: it’s every day.",
@@ -100,7 +102,7 @@ dict(
     slug="bouger-30-minutes-par-jour",
     crumb="Bouger 30 minutes par jour",
     title="Comment bouger 30 minutes par jour (sans gym) — Coutume",
-    desc="Comment bouger 30 minutes par jour quand tes journées sont pleines : choisir ce que tu aimes, découper en courtes séances, garder une heure fixe. Et les jours mous.",
+    desc="Comment bouger 30 minutes par jour quand tes journées sont pleines : choisir ce que tu aimes, découper en courtes séances, une heure fixe. Et les jours mous.",
     h1="Comment bouger 30 minutes par jour",
     lede="La plupart des gens qui arrêtent l’exercice n’ont pas cessé d’aimer ça : ils ont prévu trop gros, manqué quelques jours, et ne s’y sont jamais remis. Trente minutes, ça entre dans presque n’importe quelle journée, si tu acceptes que ce soit ordinaire.",
     why="Bien des gens remarquent qu’ils dorment mieux et ont plus d’énergie les jours où ils bougent. Une habitude quotidienne est aussi plus facile à garder que trois séances de gym par semaine : pas besoin de te demander quel jour on est, c’est tous les jours.",
@@ -145,6 +147,7 @@ dict(
 ),
 dict(
   key="stretch", theme="health", kind="build", health=None,
+  sources=[("Harvard Health Publishing — The importance of stretching", "https://www.harvardhealth.org/staying-healthy/the-importance-of-stretching")],
   en=dict(
     slug="stretch-every-morning",
     crumb="Stretch every morning",
@@ -195,7 +198,7 @@ dict(
     slug="estirarse-cada-manana",
     crumb="Estirarse cada mañana",
     title="Cómo estirarte cada mañana (en solo 5 minutos) — Coutume",
-    desc="Una rutina de estiramientos de 5 minutos que vas a mantener: los mismos movimientos, nada más levantarte, antes de mirar el teléfono. Y qué hacer si vas con prisa.",
+    desc="Una rutina de estiramientos de 5 minutos que vas a mantener: los mismos movimientos, nada más levantarte, antes de mirar el teléfono. Y si vas con prisa.",
     h1="Cómo estirarte cada mañana",
     lede="Los estiramientos de la mañana suelen fallar por algo sencillo: cuando te acuerdas, ya estás en la ducha, con el teléfono o saliendo por la puerta. Necesitan un sitio en tu mañana antes de que otra cosa lo ocupe.",
     why="Cinco minutos de movimiento suave son una forma tranquila de empezar el día y un buen momento para notar cómo está tu cuerpo. También es lo bastante corto como para que rara vez haya una razón real para saltártelo, así que es un buen primer hábito para anclar tus mañanas.",
@@ -217,6 +220,7 @@ dict(
 ),
 dict(
   key="veg", theme="health", kind="build", health=None,
+  sources=[("NHS — 5 A Day: what counts?", "https://www.nhs.uk/live-well/eat-well/5-a-day/5-a-day-what-counts/"), ("CDC — Tips for Increasing Vegetables and Fruits in Your Diet", "https://www.cdc.gov/healthy-weight-growth/healthy-eating/fruits-vegetables.html")],
   en=dict(
     slug="eat-more-fruits-and-vegetables",
     crumb="Fruits and vegetables every meal",
@@ -243,7 +247,7 @@ dict(
   fr=dict(
     slug="manger-plus-de-fruits-et-legumes",
     crumb="Fruits et légumes à chaque repas",
-    title="Comment manger plus de fruits et légumes (un repas à la fois) — Coutume",
+    title="Manger plus de fruits et légumes, un repas à la fois — Coutume",
     desc="Des façons simples d’ajouter un fruit ou un légume à chaque repas : les laver d’avance, les garder en vue, miser sur le surgelé. Pas de régime.",
     h1="Comment manger plus de fruits et légumes",
     lede="Les fruits et légumes perdent rarement contre les grignotines sur le goût : ils perdent sur la commodité. Un sac de chips est prêt à manger ; un brocoli demande d’être lavé, coupé, et un plan.",
@@ -289,6 +293,7 @@ dict(
 ),
 dict(
   key="stairs", theme="health", kind="build", health=None,
+  sources=[("NHS — Physical activity guidelines for adults aged 19 to 64", "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/")],
   en=dict(
     slug="take-the-stairs",
     crumb="Take the stairs",
@@ -315,7 +320,7 @@ dict(
   fr=dict(
     slug="prendre-l-escalier",
     crumb="Prendre l’escalier",
-    title="Comment prendre l’escalier chaque jour (plutôt que l’ascenseur) — Coutume",
+    title="Comment prendre l’escalier plutôt que l’ascenseur — Coutume",
     desc="Comment rendre l’escalier automatique : décider une fois pour toutes, commencer par une partie du trajet, utiliser les escaliers que tu croises déjà.",
     h1="Comment prendre l’escalier chaque jour",
     lede="Personne ne planifie de prendre l’ascenseur. Tu entres dans le hall, les portes sont ouvertes, et la décision est prise avant que tu t’en rendes compte. Prendre l’escalier, c’est décider avant d’arriver.",
@@ -339,7 +344,7 @@ dict(
     slug="subir-por-las-escaleras",
     crumb="Subir por las escaleras",
     title="Cómo usar las escaleras cada día (en vez del ascensor) — Coutume",
-    desc="Cómo hacer que subir por las escaleras sea automático: decidirlo una vez, empezar por una parte del camino, usar las que ya tienes cerca. Y qué hacer con bolsas.",
+    desc="Cómo hacer que subir por las escaleras sea automático: decidirlo una vez, empezar por una parte del camino, usar las que tienes cerca. Y con bolsas.",
     h1="Cómo usar las escaleras cada día",
     lede="Nadie planea tomar el ascensor. Entras al vestíbulo, las puertas están abiertas y la decisión ya está tomada antes de que te des cuenta. Subir por las escaleras consiste en decidirlo antes de llegar.",
     why="Las escaleras son ejercicio que ya está dentro de tu día: no hay que buscar tiempo ni cambiarse de ropa. Unos cuantos pisos ponen a trabajar tu corazón y tus piernas, y en unas semanas se vuelven algo en lo que ya no piensas.",
@@ -365,7 +370,7 @@ dict(
     slug="cook-at-home",
     crumb="Cook dinner at home",
     title="How to Cook Dinner at Home More Often (Even on Weeknights) — Coutume",
-    desc="How to cook dinner at home on busy weeknights: a short list of easy meals, groceries planned once, leftovers on purpose. And what to do on nights you have no energy.",
+    desc="How to cook dinner at home on busy weeknights: a short list of easy meals, groceries planned once, leftovers on purpose. And the nights you have no energy.",
     h1="How to cook dinner at home",
     lede="The hard part of cooking at home usually isn’t the cooking. It’s 6 p.m., you’re hungry, the fridge looks empty and you have no idea what to make, so takeout wins.",
     why="Cooking at home lets you choose what goes on your plate, usually costs less than ordering in, and gives the end of the day a routine. Once you have a handful of meals you can make without thinking, it takes less effort than deciding where to order from.",
@@ -388,7 +393,7 @@ dict(
     slug="cuisiner-a-la-maison",
     crumb="Cuisiner le souper à la maison",
     title="Comment cuisiner à la maison plus souvent (même en semaine) — Coutume",
-    desc="Comment faire le souper à la maison les soirs de semaine : une courte liste de repas faciles, l’épicerie planifiée une fois, des restes voulus. Et les soirs mous.",
+    desc="Comment faire le souper à la maison les soirs de semaine : une courte liste de repas faciles, l’épicerie planifiée une fois, des restes. Et les soirs mous.",
     h1="Comment cuisiner le souper à la maison",
     lede="Le plus dur, quand on cuisine à la maison, ce n’est souvent pas la cuisine. Il est 18 h, tu as faim, le frigo a l’air vide et tu ne sais pas quoi faire, alors la livraison gagne.",
     why="Cuisiner à la maison te laisse choisir ce qu’il y a dans ton assiette, coûte généralement moins cher que de commander, et donne une routine à la fin de la journée. Une fois que tu as une poignée de repas que tu sais faire sans y penser, c’est moins d’effort que de choisir un resto.",
@@ -411,7 +416,7 @@ dict(
     slug="cocinar-en-casa",
     crumb="Cocinar la cena en casa",
     title="Cómo cocinar en casa más a menudo (incluso entre semana) — Coutume",
-    desc="Cómo preparar la cena en casa entre semana: una lista corta de platos fáciles, la compra planeada una vez, sobras a propósito. Y qué hacer las noches sin energía.",
+    desc="Cómo preparar la cena en casa entre semana: una lista corta de platos fáciles, la compra planeada una vez, sobras a propósito. Y las noches sin energía.",
     h1="Cómo cocinar la cena en casa",
     lede="Lo difícil de cocinar en casa casi nunca es cocinar. Son las siete de la tarde, tienes hambre, el refrigerador parece vacío y no sabes qué hacer, así que gana la comida a domicilio.",
     why="Cocinar en casa te deja elegir lo que hay en tu plato, suele costar menos que pedir comida y le da una rutina al final del día. Cuando tienes un puñado de platos que sabes hacer sin pensar, cuesta menos esfuerzo que decidir dónde pedir.",
@@ -433,6 +438,7 @@ dict(
 ),
 dict(
   key="vitamins", theme="health", kind="build", health=None,
+  sources=[("MedlinePlus (NIH) — Taking medicine at home - create a routine", "https://medlineplus.gov/ency/patientinstructions/000613.htm")],
   en=dict(
     slug="remember-to-take-vitamins",
     crumb="Take your vitamins daily",

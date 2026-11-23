@@ -19,14 +19,15 @@ from content import PAGES, RELATED, SCREENS
 
 ROOT = sys.argv[1]
 SITE = "https://coutume.app/"
-DATE = "2026-11-21"
+PUBLISHED = "2026-11-21"
+DATE = "2026-11-23"
 LANGS = ("en", "fr", "es")
 PREFIX = {"en": "", "fr": "fr/", "es": "es/"}
 NAME = {"en": "English", "fr": "Français", "es": "Español"}
 LOCALE = {"en": "en_CA", "fr": "fr_CA", "es": "es_ES"}
 OG = {"en": "og-en.png", "fr": "og-fr.png", "es": "og-en.png"}
-UPDATED = {"en": "Last updated: November 21, 2026", "fr": "Dernière mise à jour&nbsp;: 21&nbsp;novembre&nbsp;2026",
-           "es": "Última actualización: 21 de noviembre de 2026"}
+UPDATED = {"en": "Last updated: November 23, 2026", "fr": "Dernière mise à jour&nbsp;: 23&nbsp;novembre&nbsp;2026",
+           "es": "Última actualización: 23 de noviembre de 2026"}
 HEART = BH.HEART
 SUPPORT = {"en": "support/", "fr": "fr/assistance/", "es": "es/soporte/"}
 PRIVACY = {"en": "privacy/", "fr": "fr/confidentialite/", "es": "es/privacidad/"}
@@ -37,21 +38,21 @@ L10N = {
                related="Related guides", questions="Questions",
                q='See the <a href="{home}#faq-heading">frequently asked questions</a> or visit <a href="{support}">Support</a>.',
                why="Why it’s worth it", start="How to start", hard="When it gets hard", track="Track it in Coutume",
-               more_ideas="More habit ideas", all_ideas="All 40 habit ideas"),
+               more_ideas="More habit ideas", sources="Sources", all_ideas="All 40 habit ideas"),
     "fr": dict(skip="Aller au contenu", support="Assistance", privacy="Confidentialité", footer="Pied de page", crumbs="Fil d’Ariane",
                made=f'Fait avec <svg class="heart" viewBox="0 0 24 22" role="img" aria-label="amour">{HEART}</svg> par <a href="https://wibeset.ca">Wibeset</a>. Développé au Canada.',
                aside="Coutume sur iPhone", cta="Coutume arrive bientôt sur l’App Store, pour iPhone : gratuite, sans compte, sans pub et sans abonnement.",
                related="Guides liés", questions="Questions",
                q='Consulte les <a href="{home}#faq-heading">questions fréquentes</a> ou l’<a href="{support}">assistance</a>.',
                why="Pourquoi ça vaut la peine", start="Pour commencer", hard="Quand ça devient difficile", track="Le suivre dans Coutume",
-               more_ideas="D’autres idées d’habitudes", all_ideas="Les 40 idées d’habitudes"),
+               more_ideas="D’autres idées d’habitudes", sources="Sources", all_ideas="Les 40 idées d’habitudes"),
     "es": dict(skip="Saltar al contenido", support="Soporte", privacy="Privacidad", footer="Pie de página", crumbs="Ruta de navegación",
                made=f'Hecho con <svg class="heart" viewBox="0 0 24 22" role="img" aria-label="amor">{HEART}</svg> por <a href="https://wibeset.ca">Wibeset</a>. Desarrollado en Canadá.',
                aside="Coutume en iPhone", cta="Coutume llega pronto a la App Store, para iPhone: gratis, sin cuenta, sin anuncios y sin suscripción.",
                related="Guías relacionadas", questions="Preguntas",
                q='Consulta las <a href="{home}#faq-heading">preguntas frecuentes</a> o visita el <a href="{support}">soporte</a>.',
                why="Por qué vale la pena", start="Cómo empezar", hard="Cuando se pone difícil", track="Síguelo en Coutume",
-               more_ideas="Más ideas de hábitos", all_ideas="Las 40 ideas de hábitos"),
+               more_ideas="Más ideas de hábitos", sources="Fuentes", all_ideas="Las 40 ideas de hábitos"),
 }
 GUIDES_LABEL = {"en": "Guides", "fr": "Guides", "es": "Guías"}
 
@@ -65,11 +66,11 @@ SCREENS_ES = {
 }
 HOME_ES = dict(
     title="Coutume — Mantén tus hábitos, un día a la vez",
-    desc="Coutume es un registro de hábitos gratis para iPhone: buenos hábitos por crear, malos por dejar, un toque para anotar, y Salud completa tus pasos. Sin cuenta, sin anuncios.",
+    desc="Un registro de hábitos gratis para iPhone: buenos hábitos por crear, malos por dejar, un toque para anotar, y Salud completa tus pasos. Sin cuenta.",
     label="Coutume — Registro de hábitos para iPhone",
     h1='Mantén tus hábitos, <em class="swash">un día a la vez</em>.',
     intro="Los buenos por crear, los malos por dejar: un toque para anotar, y Salud cuenta tus pasos. Gratis, sin cuenta, sin anuncios y sin suscripción.",
-    store="Próximamente en la App Store", platform="iPhone, en inglés y francés",
+    store="Próximamente en la App Store", platform="iPhone, en español, inglés y francés",
     screens=[
         ("today", "Toca un anillo y el día queda anotado.", "Los hábitos de tu día, cada uno con su anillo. Un hábito que se cuenta, como 8 vasos de agua, suma uno con cada toque; mantén pulsado el anillo para introducir un número o deshacer."),
         ("detail", "Salud cuenta tus pasos por ti.", "Los pasos, los minutos de ejercicio, la atención plena y el agua se anotan solos. Cada hábito guarda su racha y todo su historial."),
@@ -99,8 +100,8 @@ HOME_ES = dict(
          ("¿Y si me salto un día?", "Tu racha perdona un día perdido por semana. Si fallas más, la racha vuelve a empezar, pero tu nivel y tus logros se quedan: cuentan cada día cumplido."),
          ("¿Qué lee Coutume de Salud?", "Solo lo que autorices: pasos, minutos de ejercicio, atención plena y agua. Coutume nunca escribe en Salud, y tus totales se quedan en tu iPhone y en tu iCloud."),
          ("¿Y si cambio de iPhone?", "Tus hábitos se sincronizan con tu iCloud y vuelven en tu nuevo iPhone, con todo su historial, sus niveles y sus logros."),
-         ("¿Coutume está en español?", "Todavía no: la app está en inglés y en francés. Este sitio está en español para que puedas conocerla."),
-         ("¿Coutume está disponible en Android?", "No. Coutume está disponible para iPhone, en inglés y en francés.")],
+         ("¿Coutume está en español?", "Sí. La app está en español, en inglés y en francés, y sigue el idioma de tu iPhone."),
+         ("¿Coutume está en Android?", "No. Coutume llega pronto a iPhone, en español, inglés y francés.")],
 )
 
 
@@ -120,6 +121,8 @@ def depth_pre(path):
 def head(lang, path, alts, title, desc, ld, extra=""):
     """alts: {lang: path} of this page in each language (paths from the root, '' for the home)."""
     pre = depth_pre(path)
+    if len(title) > 60 and title.endswith(" — Coutume"):
+        title = title[:-len(" — Coutume")]
     links = "\n".join(f'  <link rel="alternate" hreflang="{l}" href="{SITE}{p}">' for l, p in alts.items())
     others = "\n".join(f'  <meta property="og:locale:alternate" content="{LOCALE[l]}">' for l in alts if l != lang)
     return f'''<!doctype html>
@@ -198,12 +201,12 @@ def alt_text(screen, lang):
 
 
 def shot_fig(screen, lang, pre):
-    return f'<figure class="device shot"><img src="{pre}assets/screens/fr/{screen}.webp" width="750" height="1630" alt="{esc(alt_text(screen, lang))}" loading="lazy" decoding="async"></figure>'
+    return f'<figure class="device shot"><img src="{pre}assets/screens/{lang}/{screen}.webp" width="750" height="1630" alt="{esc(alt_text(screen, lang))}" loading="lazy" decoding="async"></figure>'
 
 
 def preview(lang, pre, screens):
     imgs = "\n".join(
-        f'      <img src="{pre}assets/screens/fr/{s}.webp" width="750" height="1630" alt="{esc(alt_text(s, lang))}" data-screen="{s}" {"fetchpriority=\"high\"" if i == 0 else "loading=\"lazy\""} decoding="async">'
+        f'      <img src="{pre}assets/screens/{lang}/{s}.webp" width="750" height="1630" alt="{esc(alt_text(s, lang))}" data-screen="{s}" {"fetchpriority=\"high\"" if i == 0 else "loading=\"lazy\""} decoding="async">'
         for i, s in enumerate(screens))
     return f'''  <!-- Captured from the simulator with sample habits (scripts/capture-screens.sh). main.js shows the screen of the section being read. -->
   <aside class="preview" aria-label="{L10N[lang]["aside"]}">
@@ -226,6 +229,18 @@ def breadcrumb(lang, path, trail):
         </ol>
       </nav>
 '''
+
+
+# Google reads each page on its own: the nodes an inner page points to are repeated there, briefly.
+ORG_NODE = {"@type": "Organization", "@id": SITE + "#organization", "name": "Wibeset", "url": "https://wibeset.ca",
+            "logo": SITE + "assets/icon.png"}
+
+
+def site_nodes(lang):
+    return [ORG_NODE,
+            {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Coutume", "publisher": {"@id": SITE + "#organization"}},
+            {"@type": "MobileApplication", "@id": SITE + "#app", "name": "Coutume", "operatingSystem": "iOS",
+             "applicationCategory": "HealthApplication", "url": SITE + PREFIX[lang], "publisher": {"@id": SITE + "#organization"}}]
 
 
 def crumbs_ld(lang, trail):
@@ -265,8 +280,8 @@ def build_home(lang, data):
         {"@type": "MobileApplication", "@id": SITE + "#app", "name": "Coutume", "description": d["desc"], "operatingSystem": "iOS",
          "applicationCategory": "HealthApplication", "inLanguage": lang, "url": SITE + path, "image": SITE + "assets/" + OG[lang],
          "publisher": {"@id": SITE + "#organization"}, "isAccessibleForFree": True,
-         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CAD"}, "featureList": d["features"],
-         "screenshot": [SITE + f"assets/screens/fr/{s}.webp" for s in ("progress", "quit", "today", "detail", "calendar")]},
+         "featureList": d["features"],
+         "screenshot": [SITE + f"assets/screens/{lang}/{s}.webp" for s in ("progress", "quit", "today", "detail", "calendar")]},
         {"@type": "FAQPage", "inLanguage": lang, "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in d["faq"]]},
         {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Coutume", "inLanguage": list(LANGS),
@@ -395,8 +410,9 @@ def build_guide(page, lang, hub_bodies):
     alts = {l: guide_path(page, l) for l in LANGS}
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebPage", "@id": SITE + path, "url": SITE + path, "name": t["title"], "description": t["desc"], "inLanguage": lang,
-         "dateModified": DATE, "isPartOf": {"@id": SITE + "#website"}, "about": {"@id": SITE + "#app"}},
-        crumbs_ld(lang, [(t["crumb"], path)])]}
+         "dateModified": DATE, "isPartOf": {"@id": SITE + "#website"}, "about": {"@id": SITE + "#app"},
+         "publisher": {"@id": SITE + "#organization"}},
+        crumbs_ld(lang, [(t["crumb"], path)])] + site_nodes(lang)}
     related = [(guide_path(BG.BY_KEY[k], lang), guide_t(BG.BY_KEY[k], lang)["crumb"], guide_t(BG.BY_KEY[k], lang)["guide"]) for k in RELATED[page["key"]]]
     intro = f'''        <h1>{t["h1"]}</h1>
         <p class="updated">{UPDATED[lang]}</p>
@@ -488,13 +504,17 @@ def build_article(a, lang, arts):
     trail = [(hub_t["crumb"], hub_path), (t["crumb"], path)]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Article", "@id": SITE + path, "url": SITE + path, "headline": t["h1"], "description": t["desc"], "inLanguage": lang,
-         "dateModified": DATE, "datePublished": DATE, "author": {"@id": SITE + "#organization"}, "publisher": {"@id": SITE + "#organization"},
-         "isPartOf": {"@id": SITE + "#website"}, "about": {"@id": SITE + "#app"}, "image": SITE + "assets/" + OG[lang]},
-        crumbs_ld(lang, trail)]}
+         "dateModified": DATE, "datePublished": PUBLISHED, "author": {"@id": SITE + "#organization"}, "publisher": {"@id": SITE + "#organization"},
+         "isPartOf": {"@id": SITE + "#website"}, "about": {"@id": SITE + "#app"}, "image": SITE + "assets/" + OG[lang],
+         **({"citation": [{"@type": "CreativeWork", "name": n, "url": u} for n, u in a["sources"]]} if a.get("sources") else {})},
+        crumbs_ld(lang, trail)] + site_nodes(lang)}
     L = L10N[lang]
     steps = "\n".join(f"        <li>{s}</li>" for s in t["steps"])
     hard = "\n".join(f"        <li>{s}</li>" for s in t["hard"])
     note = f'\n      <p class="note">{t["note"]}</p>' if t.get("note") else ""
+    if a.get("sources"):
+        links = "\n".join(f'        <li><a href="{esc(u)}" rel="noopener">{n}</a></li>' for n, u in a["sources"])
+        note += f'\n\n      <h2>{L["sources"]}</h2>\n      <ul class="sources">\n{links}\n      </ul>'
     # Related: the other articles of the same theme, around this one, then the hub.
     same = [k for k in IDEAS_ORDER if k in arts and arts[k]["theme"] == a["theme"] and k != a["key"]]
     i = IDEAS_ORDER.index(a["key"])
@@ -605,8 +625,9 @@ def sitemap(groups):
 def llms(arts):
     s = open(os.path.join(ROOT, "llms.txt")).read()
     s = s[: s.index("## Pages")]
-    s = s.replace("Coutume is a free habit tracker for iPhone, in French and English.",
-                  "Coutume is a free habit tracker for iPhone, in French and English (this site is also in Spanish).")
+    for old in ("Coutume is a free habit tracker for iPhone, in French and English.",
+                "Coutume is a free habit tracker for iPhone, in French and English (this site is also in Spanish)."):
+        s = s.replace(old, "Coutume is a free habit tracker for iPhone, in French, English and Spanish.")
     lines = ["## Pages", "",
              f"- [Home]({SITE}): features and frequently asked questions",
              f"- [Support]({SITE}support/): contact, Health access, steps that don't match, undoing a slip, widgets, archiving",

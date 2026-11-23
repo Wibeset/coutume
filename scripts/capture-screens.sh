@@ -2,22 +2,21 @@
 # Captures the row of screens from the iOS app in the simulator, with its sample habits,
 # and writes them as AVIF + WebP to assets/screens/<lang>/.
 #
-#   scripts/capture-screens.sh fr      # or: en
+#   scripts/capture-screens.sh fr      # or: en, es
 #
-# Needs Xcode, ../habitudes-ios, and cwebp + avifenc (brew install webp libavif).
-# The app is French only for now: until it has an English string catalog, `en` would mix
-# French labels with English dates, so the English pages reuse the French captures (see README).
+# Needs Xcode, ../coutume-ios, and cwebp + avifenc (brew install webp libavif).
 set -eu
 
-LANG_CODE=${1:?usage: $0 fr|en}
+LANG_CODE=${1:?usage: $0 fr|en|es}
 case "$LANG_CODE" in
   fr) LOCALE=fr_CA ;;
   en) LOCALE=en_CA ;;
+  es) LOCALE=es_MX ;;
   *) echo "unknown language: $LANG_CODE" >&2; exit 1 ;;
 esac
 
 SITE=$(cd "$(dirname "$0")/.." && pwd)
-IOS=${IOS_REPO:-$SITE/../habitudes-ios}
+IOS=${IOS_REPO:-$SITE/../coutume-ios}
 # A simulator name or UDID; a UDID keeps the capture off a simulator you're using.
 DEVICE=${DEVICE:-iPhone 17 Pro}
 UDID_PATTERN='[0-9A-F]{8}(-[0-9A-F]{4}){3}-[0-9A-F]{12}'
@@ -44,14 +43,15 @@ trap 'xcrun simctl status_bar "$UDID" clear; rm -rf "$TMP"' EXIT
 
 mkdir -p "$OUT"
 # Site name → app debug screen ("" is the day, which the app opens on), the row of phones on the home page.
-# SCREENS="today:" recaptures only some (the -debugScreen names are listed in habitudes-ios's README).
+# SCREENS="today:" recaptures only some (the -debugScreen names are listed in coutume-ios's README).
 SCREENS=${SCREENS:-"today: detail:detail quit:quit progress:progress calendar:calendar"}
-# The site is light only; APPEARANCES="light dark" captures both.
-APPEARANCES=${APPEARANCES:-light}
+# The site is on ink, so the app is captured dark; APPEARANCES="dark light" captures both
+# (the light ones get a -light suffix).
+APPEARANCES=${APPEARANCES:-dark}
 for pair in $SCREENS; do
   name=${pair%%:*} screen=${pair#*:}
   for appearance in $APPEARANCES; do
-    suffix=$([ "$appearance" = dark ] && echo -dark || true)
+    suffix=$([ "$appearance" = light ] && echo -light || true)
     xcrun simctl terminate "$UDID" "$BUNDLE" 2>/dev/null || true
     xcrun simctl launch "$UDID" "$BUNDLE" -seedSampleData -inMemoryStore -sampleHealth -appearance "$appearance" \
       -AppleLanguages "($LANG_CODE)" -AppleLocale "$LOCALE" ${screen:+-debugScreen "$screen"} >/dev/null

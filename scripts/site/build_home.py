@@ -28,7 +28,7 @@ T = {
         label="Coutume — Habit tracker for iPhone",
         h1='Keep your habits, <em class="swash">one day at a time</em>.',
         intro="Good habits to build, bad ones to quit: one tap to log, and Apple Health fills in your steps. Free, with no account, no ads and no subscription.",
-        store="Coming soon to the App Store", platform="iPhone, in English and French",
+        store="Coming soon to the App Store", platform="iPhone, in English, French and Spanish",
         screens=[
             ("today", "Tap a ring, the day is logged.", "Your day’s habits, each with its ring. A habit you count, like 8 glasses of water, adds one with each tap; touch and hold to enter a number or undo.", "The day: six habits, each with its ring"),
             ("detail", "Apple Health fills in your steps.", "Steps, exercise minutes, mindful minutes and water log themselves. Each habit keeps its streak and its whole history.", "10,000 steps, filled in by Apple Health, with its streak and history"),
@@ -56,7 +56,7 @@ T = {
         label="Coutume — Suivi d’habitudes pour iPhone",
         h1='Tiens tes habitudes, <em class="swash">un jour à la fois</em>.',
         intro="Les bonnes à prendre, les mauvaises à laisser&nbsp;: un toucher pour noter, et Santé compte tes pas. Gratuite, sans compte, sans pub et sans abonnement.",
-        store="Bientôt sur l’App Store", platform="iPhone, en français et en anglais",
+        store="Bientôt sur l’App Store", platform="iPhone, en français, en anglais et en espagnol",
         screens=[
             ("today", "Touche l’anneau, c’est noté.", "Les habitudes de ta journée, chacune avec son anneau. Une habitude qui se compte, comme 8 verres d’eau, en ajoute un à chaque toucher&nbsp;; maintiens l’anneau pour entrer un nombre ou annuler.", "La journée : six habitudes, chacune avec son anneau"),
             ("detail", "Santé compte tes pas pour toi.", "Tes pas, tes minutes d’exercice, ta pleine conscience et ton eau se notent seuls. Chaque habitude garde sa séquence et tout son historique.", "10 000 pas, remplis par Santé, avec la séquence et l’historique"),

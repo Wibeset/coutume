@@ -1,6 +1,6 @@
 # Coutume
 
-> Coutume is a free habit tracker for iPhone, in French and English (this site is also in Spanish). It keeps good habits to build (8 glasses of water, 10,000 steps) and bad ones to quit (energy drinks): habits to build fill a ring in one tap, habits to quit are kept by default and only slips are logged. Apple Health fills in steps, exercise, mindful minutes and water on its own. Streaks forgive one missed day per week, and levels and milestones reward every day kept. No account, no ads: habits are stored on the iPhone and in the user's private iCloud. Made by Wibeset in Canada.
+> Coutume is a free habit tracker for iPhone, in French, English and Spanish. It keeps good habits to build (8 glasses of water, 10,000 steps) and bad ones to quit (energy drinks): habits to build fill a ring in one tap, habits to quit are kept by default and only slips are logged. Apple Health fills in steps, exercise, mindful minutes and water on its own. Streaks forgive one missed day per week, and levels and milestones reward every day kept. No account, no ads: habits are stored on the iPhone and in the user's private iCloud. Made by Wibeset in Canada.
 
 Key facts:
 
@@ -33,7 +33,7 @@ Key facts:
 
 ## How-to articles
 
-- [How to drink 8 glasses of water a day](https://coutume.app/habit-ideas/drink-more-water/)
+- [How to drink more water every day](https://coutume.app/habit-ideas/drink-more-water/)
 - [How to walk 10,000 steps a day](https://coutume.app/habit-ideas/walk-10000-steps/)
 - [How to exercise 30 minutes every day](https://coutume.app/habit-ideas/exercise-every-day/)
 - [How to stretch every morning](https://coutume.app/habit-ideas/stretch-every-morning/)

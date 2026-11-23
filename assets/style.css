@@ -384,9 +384,10 @@ footer p { font-size: 16px; color: var(--muted); }
 footer p a { color: var(--white); text-decoration: none; }
 footer p a:hover { text-decoration: underline; }
 .heart { display: inline-block; width: 15px; height: 14px; margin: 0 2px; vertical-align: -1px; fill: #e5383b; }
-footer nav { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 15px; }
-footer p { margin-top: 10px; }
-footer nav a { color: var(--faint); text-decoration: none; }
+footer nav { display: flex; flex-wrap: wrap; gap: 0 22px; font-size: 15px; }
+footer p { margin-top: 2px; }
+/* 44 pt tall, the smallest comfortable tap target. */
+footer nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--faint); text-decoration: none; }
 .content footer { padding: 40px 0 0; }
 footer nav a:hover, footer nav a[aria-current] { color: var(--white); }
 
@@ -414,11 +415,11 @@ footer nav a:hover, footer nav a[aria-current] { color: var(--white); }
 .content .legal section > p { max-width: 794px; }
 
 /* Every page but the home page starts with where it sits: Coutume › this page. */
-.breadcrumb { margin-bottom: 40px; font-size: 16px; }
+.breadcrumb { margin-bottom: 30px; font-size: 16px; }
 .legal .breadcrumb ol { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 0; padding: 0; list-style: none; color: var(--muted); }
 .breadcrumb li { display: flex; align-items: center; gap: 10px; }
 .breadcrumb li + li::before { content: "›"; color: var(--faint); }
-.breadcrumb a { display: inline-flex; align-items: center; gap: 10px; color: var(--white); text-decoration: none; }
+.breadcrumb a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: var(--white); text-decoration: none; }
 .breadcrumb a:hover { text-decoration: underline; }
 .breadcrumb img { width: 20px; height: 20px; }
 /* Stronger than the article's own list rules (.legal ol, .legal li + li). */
@@ -445,6 +446,7 @@ footer nav a:hover, footer nav a[aria-current] { color: var(--white); }
 .compare tbody th { font-weight: 400; color: var(--muted); }
 .compare td:first-of-type { color: var(--white); }
 .legal .note { font-size: 14px; color: var(--faint); }
+.legal .sources { font-size: 15px; color: var(--muted); }
 
 /* Questions: the same rhythm as the lists above (13px, a dotted hairline), each answer folded away. */
 .faq-list { max-width: 794px; }

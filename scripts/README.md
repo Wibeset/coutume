@@ -29,8 +29,8 @@ l’écran suit la section lue (`main.js`).
 | `/habit-ideas/<article>/` (38) | `/fr/idees-habitudes/<article>/` | `/es/ideas-habitos/<article>/` |
 
 L’anglais est la langue par défaut (`x-default`). Chaque page déclare ses équivalents (`hreflang`) et
-le pied de page mène à la même page dans les deux autres langues. L’espagnol (tutoiement, espagnol neutre) ne couvre
-que le site : l’app elle-même est en anglais et en français, ce que les pages espagnoles disent. Les liens sont relatifs
+le pied de page mène à la même page dans les deux autres langues. L’espagnol est tutoyé, en espagnol neutre, comme
+l’app (`../coutume-ios`), qui parle français, anglais et espagnol. Les liens sont relatifs
 (`../assets/…`), donc les pages s’ouvrent aussi bien depuis le disque que servies d’un sous-dossier ;
 seule `404.html` garde des liens depuis la racine, puisque GitHub Pages la sert à n’importe quelle adresse. Le français est tutoyé, comme
 l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets ». Coutume est « une app » : on l’accorde au féminin.
@@ -51,9 +51,9 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 - **Guides** : chaque guide existe en anglais et en français, se termine par des guides liés, et figure dans la liste
   « Guides » de l’accueil, `sitemap.xml` et `llms.txt`. Les pages comparatives (Streaks, Habitify, Habitica) datent
   leurs informations sur les concurrents : les revérifier avant de les mettre à jour.
-- **Captures de l’app** : `scripts/capture-screens.sh fr` compile `../habitudes-ios`, la lance dans le simulateur
-  avec les habitudes d’exemple et les chiffres Santé d’exemple, et capture les cinq écrans du téléphone, en clair,
-  en AVIF et WebP. `SCREENS="today:"` n’en refait qu’une partie.
+- **Captures de l’app** : `scripts/capture-screens.sh fr` (ou `en`, `es`) compile `../coutume-ios`, la lance dans le
+  simulateur avec les habitudes d’exemple et les chiffres Santé d’exemple, et capture les cinq écrans du téléphone,
+  en sombre, en AVIF et WebP, dans `assets/screens/<langue>/` ; chaque langue du site montre les siennes. `SCREENS="today:"` n’en refait qu’une partie.
 - **Icône et images** : `python3 scripts/make-images.py` dessine l’icône (`assets/icon.svg`, `icon-1024.png` pour
   l’App Store), les favicons et les images Open Graph (`icons` ou `og` pour n’en refaire qu’une partie). Il lui faut
   Google Chrome.
@@ -62,11 +62,8 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 
 ## Avant le lancement
 
-- **Captures en anglais** : l’app n’a pas encore de catalogue de chaînes anglais, donc les pages anglaises montrent
-  les captures françaises (`assets/screens/fr/`). Quand l’app parlera anglais, lancer
-  `scripts/capture-screens.sh en` et faire pointer les captures (accueil, guides) et le JSON-LD vers `assets/screens/en/`.
 - **Icône** : `assets/icon.svg` (un anneau presque fermé et une coche) est une proposition ; l’app n’a pas encore
-  d’icône. Si elle est retenue, `assets/icon-1024.png` va dans `AppIcon` de `../habitudes-ios`.
+  d’icône. Si elle est retenue, `assets/icon-1024.png` va dans `AppIcon` de `../coutume-ios`.
 - **Fonctionnalités** : le texte suppose une app gratuite, sans compte, la lecture seule de Santé (pas, exercice,
   pleine conscience, eau), la synchro iCloud, le joker hebdomadaire, 11 niveaux, 18 jalons et les widgets.
   Ajuster les pages, les guides, le JSON-LD, `llms.txt` et la politique de confidentialité si l’app diffère.
