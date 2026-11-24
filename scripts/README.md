@@ -14,9 +14,7 @@ l’écran suit la section lue (`main.js`).
 | `/` | `/fr/` | `/es/` |
 | `/support/` | `/fr/assistance/` | `/es/soporte/` |
 | `/privacy/` | `/fr/confidentialite/` | `/es/privacidad/` |
-| `/streaks-alternative/` | `/fr/alternative-streaks/` | `/es/alternativa-streaks/` |
-| `/habitify-alternative/` | `/fr/alternative-habitify/` | `/es/alternativa-habitify/` |
-| `/habitica-alternative/` | `/fr/alternative-habitica/` | `/es/alternativa-habitica/` |
+| `/<competitor>-alternative/` (10) | `/fr/alternative-<competitor>/` | `/es/alternativa-<competitor>/` |
 | `/habit-tracker-apple-health/` | `/fr/suivi-habitudes-sante/` | `/es/seguimiento-habitos-salud/` |
 | `/quit-energy-drinks/` | `/fr/arreter-boissons-energisantes/` | `/es/dejar-bebidas-energeticas/` |
 | `/quit-vaping-tracker/` | `/fr/arreter-de-vapoter/` | `/es/dejar-de-vapear/` |
@@ -40,7 +38,7 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 - **Pages générées** : `python3 scripts/site/build.py .` refait les trois accueils, les guides, les 38 articles
   « idées d’habitudes », les pieds de page et les langues de l’assistance et de la confidentialité, `404.html`,
   `sitemap.xml` et `llms.txt`. Les textes sont dans `scripts/site/` : `content.py` (guides en anglais et en français),
-  `guides_es.py` (guides en espagnol), `articles/*.py` (un article = trois langues), `build_home.py` et `HOME_ES` dans
+  `guides_es.py` (guides en espagnol), `alternatives.py` (les pages d’alternatives, trois langues), `articles/*.py` (un article = trois langues), `build_home.py` et `HOME_ES` dans
   `build.py` (les accueils). Modifier ces fichiers puis relancer, plutôt que de retoucher le HTML des pages générées.
   Le corps de l’assistance et de la confidentialité reste écrit à la main. `articles/README.md` décrit le format et
   les règles d’un article (dont les seules fonctions de l’app qu’on a le droit de citer).
@@ -49,8 +47,10 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 - **Script** : `assets/main.js` montre dans le téléphone de droite l’écran de la section lue (`data-screen`) et ajoute
   un point par écran à côté ; sans JavaScript, le premier écran reste affiché.
 - **Guides** : chaque guide existe en anglais et en français, se termine par des guides liés, et figure dans la liste
-  « Guides » de l’accueil, `sitemap.xml` et `llms.txt`. Les pages comparatives (Streaks, Habitify, Habitica) datent
-  leurs informations sur les concurrents : les revérifier avant de les mettre à jour.
+  « Guides » de l’accueil, `sitemap.xml` et `llms.txt`. Les pages « meilleures alternatives à… » (Streaks, Habitify, Habitica, Way of Life, Productive,
+  Strides, Finch, HabitKit, Atoms, Fabulous) sont générées depuis `alternatives.py` : Coutume en premier, un tableau
+  comparatif, puis trois autres choix. Elles datent leurs informations sur les concurrents (fiches App Store américaines
+  et sites, novembre 2026) : les revérifier avant de les mettre à jour.
 - **Captures de l’app** : `scripts/capture-screens.sh fr` (ou `en`, `es`) compile `../coutume-ios`, la lance dans le
   simulateur avec les habitudes d’exemple et les chiffres Santé d’exemple, et capture les cinq écrans du téléphone,
   en sombre, en AVIF et WebP, dans `assets/screens/<langue>/` ; chaque langue du site montre les siennes. `SCREENS="today:"` n’en refait qu’une partie.

@@ -1,5 +1,7 @@
 # The guides of coutume.app, in Spanish. Same structure and markup as the `en` dicts in content.py.
 
+from alternatives import ALT_ES
+
 SCREENS_ES = {
     "today": "El día: seis hábitos, cada uno con su anillo",
     "detail": "10.000 pasos, completados por Salud, con su racha y su historial",
@@ -9,131 +11,8 @@ SCREENS_ES = {
 }
 
 ES = {
-# ---------------------------------------------------------------- Alternatives
-"streaks": dict(
-  slug="alternativa-streaks",
-  title="Alternativa a Streaks: una app de hábitos gratis para iPhone — Coutume",
-  desc="Una alternativa gratis a Streaks: Coutume sigue hábitos por crear y por dejar en iPhone, lee Salud y perdona un día perdido. Sin cuenta ni anuncios.",
-  crumb="Alternativa a Streaks", guide="Coutume frente a Streaks, la app de hábitos de pago para dispositivos Apple",
-  h1="Una alternativa gratis a Streaks",
-  lede="Coutume sigue tus hábitos en iPhone. Conserva lo que gusta de Streaks, un toque para registrar, Salud y las rachas, y añade hábitos por dejar contados en días sin, niveles y logros. Gratis, sin cuenta, sin anuncios y sin suscripción.",
-  body="""
-      <h2>Coutume y Streaks de un vistazo</h2>
-      <div class="table-scroll">
-        <table class="compare">
-          <thead>
-            <tr><th scope="col"><span class="sr-only">Función</span></th><th scope="col">Coutume</th><th scope="col">Streaks</th></tr>
-          </thead>
-          <tbody>
-            <tr><th scope="row">Precio</th><td>Gratis, sin anuncios</td><td>Compra única (5,99 US$ en el App Store de EE. UU.)</td></tr>
-            <tr><th scope="row">Cuenta obligatoria</th><td>No</td><td>No</td></tr>
-            <tr><th scope="row">Hábitos por dejar</th><td>Sí: días sin, dinero ahorrado, impulsos resistidos</td><td>Sí, como tareas negativas</td></tr>
-            <tr><th scope="row">Salud</th><td>Pasos, ejercicio, minutos de atención plena y agua, solo lectura</td><td>Sí</td></tr>
-            <tr><th scope="row">Un día perdido</th><td>Se perdona uno por semana</td><td>Eliges qué días toca cada tarea</td></tr>
-            <tr><th scope="row">Niveles y logros</th><td>11 niveles, 18 logros</td><td>No</td></tr>
-            <tr><th scope="row">Dispositivos</th><td>iPhone</td><td>iPhone, iPad, Apple Watch, Mac</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="note">Según la información pública a noviembre de 2026; los precios varían según el país. Streaks es una marca de su propietario; Coutume no está afiliada a ella.</p>
-
-      <h2>Por qué elegir Coutume</h2>
-      <ul>
-        <li><strong>Gratis, de verdad.</strong> Sin compra, sin suscripción, sin anuncios y sin límites escondidos tras un pago.</li>
-        <li><strong>Los malos hábitos tienen su propia lógica.</strong> Un hábito por dejar se da por cumplido: solo registras el día que recaes. Coutume cuenta tus días sin, el dinero ahorrado y los impulsos que resististe.</li>
-        <li><strong>Una racha que perdona.</strong> Un día perdido por semana no rompe tu racha, así que un mal día no borra semanas de esfuerzo.</li>
-        <li><strong>Algo a lo que aspirar.</strong> Once niveles, de Buena intención a Leyenda, y dieciocho logros, que se ganan con cada día cumplido.</li>
-        <li><strong>Salud registra por ti.</strong> Los pasos, los minutos de ejercicio, los minutos de atención plena y el agua completan tus hábitos solos.</li>
-        <li><strong>Privada por defecto.</strong> Tus hábitos se quedan en tu iPhone y en tu iCloud privado. Nunca los recibimos.</li>
-      </ul>
-
-      <h2>Cuándo te puede convenir más Streaks</h2>
-      <p>Streaks existe desde hace años y funciona en más dispositivos. Quizá la prefieras si quieres registrar desde tu Apple Watch, iPad o Mac, si necesitas hábitos que solo tocan algunos días de la semana, o si ya la compraste y te funciona.</p>
-
-      <h2>Pasar de Streaks a Coutume</h2>
-      <p>Coutume no importa datos de Streaks: vuelve a añadir tus hábitos, cada uno lleva unos segundos. Los que completa Salud se ponen al día solos, porque Coutume vuelve a leer los últimos siete días cada vez que la abres.</p>
-"""),
-
-"habitify": dict(
-  slug="alternativa-habitify",
-  title="Alternativa a Habitify sin cuenta ni suscripción — Coutume",
-  desc="Una alternativa a Habitify sin límite de hábitos, sin cuenta ni suscripción: Coutume es gratis en iPhone, con Salud, hábitos por dejar y rachas que perdonan.",
-  crumb="Alternativa a Habitify", guide="Coutume frente a Habitify, la app de hábitos con planes gratis y de pago",
-  h1="Una alternativa a Habitify, sin cuenta ni suscripción",
-  lede="Coutume sigue tus hábitos en iPhone, gratis. Sin cuenta que crear, sin plan que elegir y sin suscripción: tus hábitos se quedan en tu iPhone y en tu iCloud privado.",
-  body="""
-      <h2>Coutume y Habitify de un vistazo</h2>
-      <div class="table-scroll">
-        <table class="compare">
-          <thead>
-            <tr><th scope="col"><span class="sr-only">Función</span></th><th scope="col">Coutume</th><th scope="col">Habitify</th></tr>
-          </thead>
-          <tbody>
-            <tr><th scope="row">Precio</th><td>Gratis, sin anuncios</td><td>Plan gratis de hasta 3 hábitos; planes Plus y Pro, mensuales, anuales o de por vida</td></tr>
-            <tr><th scope="row">Cuenta</th><td>Ninguna</td><td>Cuenta de Apple, Google o correo electrónico, o un modo invitado sin sincronización</td></tr>
-            <tr><th scope="row">Dónde se guardan tus hábitos</th><td>En tu iPhone y en tu iCloud privado</td><td>En tu cuenta de Habitify</td></tr>
-            <tr><th scope="row">Salud</th><td>Pasos, ejercicio, minutos de atención plena y agua, solo lectura</td><td>Sí</td></tr>
-            <tr><th scope="row">Hábitos por dejar</th><td>Días sin, dinero ahorrado, impulsos resistidos</td><td>—</td></tr>
-            <tr><th scope="row">Dispositivos</th><td>iPhone</td><td>iOS, Android, Mac, web</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="note">Según la información pública a noviembre de 2026: Habitify pasó a los planes Free, Plus y Pro en abril de 2026, y los precios varían según el país. Habitify es una marca de su propietario; Coutume no está afiliada a ella.</p>
-
-      <h2>Por qué elegir Coutume</h2>
-      <ul>
-        <li><strong>Todos tus hábitos, gratis.</strong> Sin plan que contratar para añadir un cuarto hábito, y sin anuncios.</li>
-        <li><strong>Sin cuenta ni registro.</strong> Abre la app y añade tu primer hábito. No hay contraseña que recordar ni perfil que gestionar.</li>
-        <li><strong>Privada por defecto.</strong> Sin servidor ni analíticas: nunca recibimos tus hábitos ni tus datos de Salud.</li>
-        <li><strong>Hecha también para dejar.</strong> Un hábito por dejar se da por cumplido, y Coutume cuenta tus días sin, el dinero ahorrado y los impulsos que resististe.</li>
-        <li><strong>Una racha que perdona.</strong> Se perdona un día perdido por semana, y tus niveles y logros cuentan cada día cumplido.</li>
-      </ul>
-
-      <h2>Cuándo te puede convenir más Habitify</h2>
-      <p>Habitify funciona en Android, Mac y la web, y guarda tus hábitos en una cuenta en línea. Quizá la prefieras si alternas entre un iPhone y un teléfono Android o una computadora, o si quieres los informes detallados de sus planes de pago.</p>
-
-      <h2>Pasar de Habitify a Coutume</h2>
-      <p>Coutume no importa datos de Habitify: vuelve a añadir tus hábitos, cada uno lleva unos segundos. Los que completa Salud se ponen al día solos, porque Coutume vuelve a leer los últimos siete días cada vez que la abres.</p>
-"""),
-
-"habitica": dict(
-  slug="alternativa-habitica",
-  title="Alternativa a Habitica: niveles sin juego de rol — Coutume",
-  desc="Una alternativa más sencilla a Habitica: Coutume sigue tus hábitos en iPhone gratis, con niveles y logros, sin avatar, sin cuenta y sin grupo.",
-  crumb="Alternativa a Habitica", guide="Coutume frente a Habitica, la app de hábitos convertida en juego de rol",
-  h1="Una alternativa a Habitica, con niveles pero sin juego de rol",
-  lede="Habitica convierte tus hábitos en un juego de rol. Coutume conserva la satisfacción de subir de nivel y deja de lado el avatar, el oro y la cuenta: una app de hábitos gratis para iPhone, tranquila y privada.",
-  body="""
-      <h2>Coutume y Habitica de un vistazo</h2>
-      <div class="table-scroll">
-        <table class="compare">
-          <thead>
-            <tr><th scope="col"><span class="sr-only">Función</span></th><th scope="col">Coutume</th><th scope="col">Habitica</th></tr>
-          </thead>
-          <tbody>
-            <tr><th scope="row">Precio</th><td>Gratis, sin anuncios</td><td>Gratis, con una suscripción y compras dentro de la app opcionales</td></tr>
-            <tr><th scope="row">Cuenta obligatoria</th><td>No</td><td>Sí</td></tr>
-            <tr><th scope="row">Recompensas</th><td>11 niveles y 18 logros, ganados con los días cumplidos</td><td>Un avatar, experiencia, oro, equipo y misiones</td></tr>
-            <tr><th scope="row">Malos hábitos</th><td>Se dan por cumplidos; días sin, dinero ahorrado, impulsos resistidos</td><td>Hábitos negativos que le quitan salud a tu avatar</td></tr>
-            <tr><th scope="row">Un día perdido</th><td>Se perdona uno por semana</td><td>Las tareas diarias sin hacer quitan salud</td></tr>
-            <tr><th scope="row">Los demás</th><td>Solo tú</td><td>Grupos y desafíos con otros jugadores</td></tr>
-            <tr><th scope="row">Dispositivos</th><td>iPhone</td><td>iOS, Android, web</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="note">Según la información pública a noviembre de 2026. Habitica es una marca de su propietario; Coutume no está afiliada a ella.</p>
-
-      <h2>Por qué elegir Coutume</h2>
-      <ul>
-        <li><strong>Progresar sin un juego que gestionar.</strong> Sin equipo que comprar ni misiones que seguir: cada día cumplido te acerca al siguiente nivel, de Buena intención a Leyenda.</li>
-        <li><strong>Amable en los días malos.</strong> Se perdona un día perdido por semana, y una recaída nunca te quita tu nivel ni tus logros.</li>
-        <li><strong>Menos que registrar.</strong> Un toque llena un anillo, y Salud completa sola tus pasos, tu ejercicio, tus minutos de atención plena y tu agua.</li>
-        <li><strong>Sin cuenta, sin nadie mirando.</strong> Tus hábitos se quedan en tu iPhone y en tu iCloud privado.</li>
-      </ul>
-
-      <h2>Cuándo te puede convenir más Habitica</h2>
-      <p>Habitica brilla si lo que te motiva es el juego: un avatar que vestir, misiones que terminar y amigos que cuentan contigo en tu grupo. También funciona en Android y la web, y combina hábitos con listas de tareas.</p>
-"""),
+# ---------------------------------------------------------------- Alternatives (alternatives.py)
+**ALT_ES,
 
 # ---------------------------------------------------------------- Features and uses
 "health": dict(

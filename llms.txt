@@ -18,9 +18,16 @@ Key facts:
 - [Home](https://coutume.app/): features and frequently asked questions
 - [Support](https://coutume.app/support/): contact, Health access, steps that don't match, undoing a slip, widgets, archiving
 - [Privacy policy](https://coutume.app/privacy/): what information the app handles
-- [Streaks alternative](https://coutume.app/streaks-alternative/): compare Coutume with Streaks, the paid habit tracker for Apple devices
-- [Habitify alternative](https://coutume.app/habitify-alternative/): compare Coutume with Habitify, the habit tracker with free and paid plans
-- [Habitica alternative](https://coutume.app/habitica-alternative/): compare Coutume with Habitica, the habit tracker played as a role-playing game
+- [Streaks alternative](https://coutume.app/streaks-alternative/): the best alternatives to Streaks, the paid habit tracker for Apple devices
+- [Habitify alternative](https://coutume.app/habitify-alternative/): the best alternatives to Habitify, the habit tracker with free and paid plans
+- [Habitica alternative](https://coutume.app/habitica-alternative/): the best alternatives to Habitica, the habit tracker played as a role-playing game
+- [Way of Life alternative](https://coutume.app/way-of-life-alternative/): the best alternatives to Way of Life, the green-and-red habit diary
+- [Productive alternative](https://coutume.app/productive-alternative/): the best alternatives to Productive, the routine planner with a subscription
+- [Strides alternative](https://coutume.app/strides-alternative/): the best alternatives to Strides, the habit and goal tracker
+- [Finch alternative](https://coutume.app/finch-alternative/): the best alternatives to Finch, the self-care app with a virtual pet
+- [HabitKit alternative](https://coutume.app/habitkit-alternative/): the best alternatives to HabitKit, the habit grid with a Pro upgrade
+- [Atoms alternative](https://coutume.app/atoms-alternative/): the best alternatives to Atoms, the app from Atomic Habits
+- [Fabulous alternative](https://coutume.app/fabulous-alternative/): the best alternatives to Fabulous, the coaching and routine app
 - [Apple Health habit tracker](https://coutume.app/habit-tracker-apple-health/): steps, exercise, mindful minutes and water, filled in by Apple Health
 - [Quit energy drinks](https://coutume.app/quit-energy-drinks/): count your days without energy drinks and the money you save
 - [Quit vaping tracker](https://coutume.app/quit-vaping-tracker/): track your days without vaping, the money saved and the urges resisted
@@ -80,6 +87,13 @@ Key facts:
 - [Alternative à Streaks](https://coutume.app/fr/alternative-streaks/)
 - [Alternative à Habitify](https://coutume.app/fr/alternative-habitify/)
 - [Alternative à Habitica](https://coutume.app/fr/alternative-habitica/)
+- [Alternative à Way of Life](https://coutume.app/fr/alternative-way-of-life/)
+- [Alternative à Productive](https://coutume.app/fr/alternative-productive/)
+- [Alternative à Strides](https://coutume.app/fr/alternative-strides/)
+- [Alternative à Finch](https://coutume.app/fr/alternative-finch/)
+- [Alternative à HabitKit](https://coutume.app/fr/alternative-habitkit/)
+- [Alternative à Atoms](https://coutume.app/fr/alternative-atoms/)
+- [Alternative à Fabulous](https://coutume.app/fr/alternative-fabulous/)
 - [Suivi d’habitudes avec Santé](https://coutume.app/fr/suivi-habitudes-sante/)
 - [Arrêter les boissons énergisantes](https://coutume.app/fr/arreter-boissons-energisantes/)
 - [Arrêter de vapoter](https://coutume.app/fr/arreter-de-vapoter/)
@@ -98,6 +112,13 @@ Key facts:
 - [Alternativa a Streaks](https://coutume.app/es/alternativa-streaks/)
 - [Alternativa a Habitify](https://coutume.app/es/alternativa-habitify/)
 - [Alternativa a Habitica](https://coutume.app/es/alternativa-habitica/)
+- [Alternativa a Way of Life](https://coutume.app/es/alternativa-way-of-life/)
+- [Alternativa a Productive](https://coutume.app/es/alternativa-productive/)
+- [Alternativa a Strides](https://coutume.app/es/alternativa-strides/)
+- [Alternativa a Finch](https://coutume.app/es/alternativa-finch/)
+- [Alternativa a HabitKit](https://coutume.app/es/alternativa-habitkit/)
+- [Alternativa a Atoms](https://coutume.app/es/alternativa-atoms/)
+- [Alternativa a Fabulous](https://coutume.app/es/alternativa-fabulous/)
 - [Seguimiento de hábitos con Salud](https://coutume.app/es/seguimiento-habitos-salud/)
 - [Dejar las bebidas energéticas](https://coutume.app/es/dejar-bebidas-energeticas/)
 - [Dejar de vapear](https://coutume.app/es/dejar-de-vapear/)

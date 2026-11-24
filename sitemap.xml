@@ -145,6 +145,174 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/habitica-alternative/"/>
   </url>
   <url>
+    <loc>https://coutume.app/way-of-life-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/way-of-life-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-way-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-way-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/way-of-life-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-way-of-life/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/way-of-life-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-way-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-way-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/way-of-life-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-way-of-life/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/way-of-life-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-way-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-way-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/way-of-life-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/productive-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/productive-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-productive/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-productive/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/productive-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-productive/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/productive-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-productive/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-productive/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/productive-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-productive/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/productive-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-productive/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-productive/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/productive-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/strides-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/strides-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-strides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-strides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/strides-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-strides/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/strides-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-strides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-strides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/strides-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-strides/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/strides-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-strides/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-strides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/strides-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/finch-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/finch-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-finch/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-finch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/finch-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-finch/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/finch-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-finch/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-finch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/finch-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-finch/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/finch-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-finch/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-finch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/finch-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/habitkit-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/habitkit-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-habitkit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-habitkit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/habitkit-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-habitkit/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/habitkit-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-habitkit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-habitkit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/habitkit-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-habitkit/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/habitkit-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-habitkit/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-habitkit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/habitkit-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/atoms-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/atoms-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-atoms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-atoms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/atoms-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-atoms/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/atoms-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-atoms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-atoms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/atoms-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-atoms/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/atoms-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-atoms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-atoms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/atoms-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fabulous-alternative/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/fabulous-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-fabulous/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-fabulous/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/fabulous-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/fr/alternative-fabulous/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/fabulous-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-fabulous/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-fabulous/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/fabulous-alternative/"/>
+  </url>
+  <url>
+    <loc>https://coutume.app/es/alternativa-fabulous/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/fabulous-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coutume.app/fr/alternative-fabulous/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://coutume.app/es/alternativa-fabulous/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://coutume.app/fabulous-alternative/"/>
+  </url>
+  <url>
     <loc>https://coutume.app/habit-tracker-apple-health/</loc>
     <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://coutume.app/habit-tracker-apple-health/"/>
