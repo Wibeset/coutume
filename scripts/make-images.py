@@ -19,12 +19,10 @@ SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(SITE, "assets")
 CHROME = os.environ.get("CHROME", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 
-# The app's palette: warm paper, ink, and the flame of a kept streak.
+# The app's palette: warm paper and ink.
 PAPER = "#f5f3ee"
 INK = "#17212b"
 MUTED = "#686a6c"
-FLAME = "#f4a261"
-CREAM = "#f2f1ee"
 # The habits' colors in light mode (Shared/HabitColor.swift), with the sample habits' progress.
 RINGS = [("#2a6fad", 0.625), ("#2e7d4f", 0.82), ("#b85a16", 1.0), ("#8f6a1c", 1.0), ("#6a4fc2", 0.4), ("#3f57b5", 0.0)]
 
@@ -45,11 +43,19 @@ def ring(cx, cy, r, width, color, fraction, track_opacity=0.16):
     return out
 
 
-# A ring almost closed, and the day's check: one habit, kept.
-ICON_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  <rect width="1024" height="1024" fill="{INK}"/>
-  {ring(512, 512, 318, 104, FLAME, 0.86, track_opacity=0.18)}
-  <path d="M384 522l92 90 170-178" fill="none" stroke="{CREAM}" stroke-width="84" stroke-linecap="round" stroke-linejoin="round"/>
+# « Flamme »: the streak flame, two-tone like the app's feature icons, with a gold core, glowing on ink.
+# The same drawing as ../coutume-ios's AppIcon (drawn there with CoreGraphics), on a 100-unit grid.
+ICON_FLAME = "#f29a5c"
+ICON_GOLD = "#ffd23f"
+ICON_SVG = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs><radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="50" cy="62" r="40.4">
+    <stop offset="0" stop-color="{ICON_FLAME}" stop-opacity="0.35"/><stop offset="1" stop-color="{ICON_FLAME}" stop-opacity="0"/>
+  </radialGradient></defs>
+  <rect width="100" height="100" fill="#0a0a0b"/>
+  <rect width="100" height="100" fill="url(#glow)"/>
+  <path d="M50 20C56 31 68 38 68 55C68 66 60 75 50 75C40 75 32 66 32 55C32 46 38 41 41 34C43 41 46 44 49 45C48 36 47 28 50 20Z"
+        fill="{ICON_FLAME}" fill-opacity="0.25" stroke="{ICON_FLAME}" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M50 52C53 57 58 59 58 64.5C58 69 54.5 72 50 72C45.5 72 42 69 42 64.5C42 60 46 58 50 52Z" fill="{ICON_GOLD}"/>
 </svg>"""
 
 

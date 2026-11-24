@@ -62,8 +62,8 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 
 ## Avant le lancement
 
-- **Icône** : `assets/icon.svg` (un anneau presque fermé et une coche) est une proposition ; l’app n’a pas encore
-  d’icône. Si elle est retenue, `assets/icon-1024.png` va dans `AppIcon` de `../coutume-ios`.
+- **Icône** : la flamme (`assets/icon.svg`) est l’icône de l’app. Elle est dessinée deux fois, ici et dans
+  `AppIcon` de `../coutume-ios` (avec ses variantes sombre et teintée) : changer les deux ensemble.
 - **Fonctionnalités** : le texte suppose une app gratuite, sans compte, la lecture seule de Santé (pas, exercice,
   pleine conscience, eau), la synchro iCloud, le joker hebdomadaire, 11 niveaux, 18 jalons et les widgets.
   Ajuster les pages, les guides, le JSON-LD, `llms.txt` et la politique de confidentialité si l’app diffère.
