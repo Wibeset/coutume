@@ -65,7 +65,7 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 - **Icône** : la flamme (`assets/icon.svg`) est l’icône de l’app. Elle est dessinée deux fois, ici et dans
   `AppIcon` de `../coutume-ios` (avec ses variantes sombre et teintée) : changer les deux ensemble.
 - **Fonctionnalités** : le texte suppose une app gratuite, sans compte, la lecture seule de Santé (pas, exercice,
-  pleine conscience, eau), la synchro iCloud, le joker hebdomadaire, 11 niveaux, 18 jalons et les widgets.
+  pleine conscience, eau), la synchro iCloud, le joker hebdomadaire, 15 niveaux, 18 jalons et les widgets.
   Ajuster les pages, les guides, le JSON-LD, `llms.txt` et la politique de confidentialité si l’app diffère.
 - **App Store** : à la sortie, transformer la pastille « Coming soon to the App Store » / « Bientôt sur l’App Store »
   (`<span class="store">`) en lien `<a class="store">` vers l’App Store, comme sur Reliure, ajouter un lien « App Store ↗ »

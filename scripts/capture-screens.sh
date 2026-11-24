@@ -44,7 +44,7 @@ trap 'xcrun simctl status_bar "$UDID" clear; rm -rf "$TMP"' EXIT
 mkdir -p "$OUT"
 # Site name → app debug screen ("" is the day, which the app opens on), the row of phones on the home page.
 # SCREENS="today:" recaptures only some (the -debugScreen names are listed in coutume-ios's README).
-SCREENS=${SCREENS:-"today: detail:detail quit:quit progress:progress calendar:calendar"}
+SCREENS=${SCREENS:-"today: detail:detail quit:quit progress:milestones calendar:calendar"}
 # The site is on ink, so the app is captured dark; APPEARANCES="dark light" captures both
 # (the light ones get a -light suffix).
 APPEARANCES=${APPEARANCES:-dark}

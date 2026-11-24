@@ -7,7 +7,7 @@ SCREENS = {
     "today": ("The day: six habits, each with its ring", "La journée : six habitudes, chacune avec son anneau"),
     "detail": ("10,000 steps, filled in by Apple Health, with its streak and history", "10 000 pas, remplis par Santé, avec la séquence et l’historique"),
     "quit": ("A habit to quit: 12 days without energy drinks, $42 saved", "Une habitude à éviter : 12 jours sans boisson énergisante, 42 $ économisés"),
-    "progress": ("Progress: the level reached and the milestones earned", "Progrès : le niveau atteint et les jalons gagnés"),
+    "progress": ("Statistics: the level reached and the milestones earned", "Statistiques : le niveau atteint et les jalons gagnés"),
     "calendar": ("The calendar: the month, brighter as more habits were kept", "Le calendrier : le mois, plus vif quand plus d’habitudes ont été tenues"),
 }
 
@@ -80,7 +80,7 @@ en=dict(
   sections=[
     ("quit", "Nothing to log on a good day", "<p>A habit to quit is kept by default. You don’t check anything when you didn’t vape; you only log the day you slip. Coutume does the counting.</p>"),
     ("quit", "Watch the days and the savings grow", "<p>Your days without vaping, the money you didn’t spend, and the urges you resisted this week, side by side on the habit’s page.</p>"),
-    ("progress", "Every day kept still counts", "<p>A slip restarts the count of days without, but never takes away your level or your milestones. Eleven levels and eighteen milestones mark the way, one kept day after another.</p>"),
+    ("progress", "Every day kept still counts", "<p>A slip restarts the count of days without, but never takes away your level or your milestones. Fifteen levels and eighteen milestones mark the way, one kept day after another.</p>"),
     ("calendar", "See your month", "<p>The calendar shows each day of the month, brighter as more of your habits were kept: a quiet way to see how far you’ve come.</p>"),
   ],
   extra="<p class=\"note\">Coutume is a habit tracker, not a medical app or a quit-smoking program. For help to stop vaping, talk to a doctor, a pharmacist or your local quit line.</p>"),
@@ -93,7 +93,7 @@ fr=dict(
   sections=[
     ("quit", "Rien à noter les bons jours", "<p>Une habitude à éviter est tenue d’office. Tu ne coches rien quand tu n’as pas vapoté ; tu ne notes que le jour où tu craques. Coutume compte pour toi.</p>"),
     ("quit", "Regarde les jours et les économies grimper", "<p>Tes jours sans vapoter, l’argent que tu n’as pas dépensé et les envies résistées cette semaine, côte à côte sur la page de l’habitude.</p>"),
-    ("progress", "Chaque journée tenue compte toujours", "<p>Un écart remet à zéro le compteur de jours sans, mais ne t’enlève jamais ton niveau ni tes jalons. Onze niveaux et dix-huit jalons balisent le chemin, une journée tenue après l’autre.</p>"),
+    ("progress", "Chaque journée tenue compte toujours", "<p>Un écart remet à zéro le compteur de jours sans, mais ne t’enlève jamais ton niveau ni tes jalons. Quinze niveaux et dix-huit jalons balisent le chemin, une journée tenue après l’autre.</p>"),
     ("calendar", "Vois ton mois", "<p>Le calendrier montre chaque journée du mois, plus vive quand plus d’habitudes ont été tenues : une façon tranquille de voir le chemin parcouru.</p>"),
   ],
   extra="<p class=\"note\">Coutume est une app d’habitudes, pas une app médicale ni un programme d’arrêt du tabac. Pour de l’aide à arrêter de vapoter, parles-en à un médecin, à un pharmacien ou à une ligne d’aide de ta région.</p>")),
@@ -383,7 +383,7 @@ en=dict(
       </ul>
 
       <h2>How Coutume follows the research</h2>
-      <p>Coutume’s streaks forgive one missed day a week, so one off day doesn’t erase weeks of effort. Your level counts every day you kept, not just your current streak, and the eleven levels go well past 66 days, from Good intention to Legend.</p>
+      <p>Coutume’s streaks forgive one missed day a week, so one off day doesn’t erase weeks of effort. Your level counts every day you kept, not just your current streak, and the fifteen levels go well past 66 days, from Good intention to Legend.</p>
 """),
 fr=dict(
   title="Combien de temps pour prendre une habitude ? Pas 21 jours — Coutume",
@@ -414,7 +414,7 @@ fr=dict(
       </ul>
 
       <h2>Comment Coutume suit la recherche</h2>
-      <p>Les séquences de Coutume pardonnent un jour manqué par semaine : une mauvaise journée n’efface pas des semaines d’effort. Ton niveau compte chaque journée tenue, pas seulement ta séquence en cours, et les onze niveaux vont bien au-delà de 66 jours, de Bonne intention à Légende.</p>
+      <p>Les séquences de Coutume pardonnent un jour manqué par semaine : une mauvaise journée n’efface pas des semaines d’effort. Ton niveau compte chaque journée tenue, pas seulement ta séquence en cours, et les quinze niveaux vont bien au-delà de 66 jours, de Bonne intention à Légende.</p>
 """)),
 ]
 

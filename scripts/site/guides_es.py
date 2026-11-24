@@ -54,7 +54,7 @@ ES = {
   sections=[
     ("quit", "Nada que registrar en un buen día", "<p>Un hábito por dejar se da por cumplido. No marcas nada cuando no vapeaste; solo registras el día que recaes. Coutume cuenta por ti.</p>"),
     ("quit", "Mira cómo crecen los días y el ahorro", "<p>Tus días sin vapear, el dinero que no gastaste y los impulsos que resististe esta semana, uno al lado del otro en la página del hábito.</p>"),
-    ("progress", "Cada día cumplido sigue contando", "<p>Una recaída reinicia la cuenta de días sin, pero nunca te quita tu nivel ni tus logros. Once niveles y dieciocho logros marcan el camino, un día cumplido tras otro.</p>"),
+    ("progress", "Cada día cumplido sigue contando", "<p>Una recaída reinicia la cuenta de días sin, pero nunca te quita tu nivel ni tus logros. Quince niveles y dieciocho logros marcan el camino, un día cumplido tras otro.</p>"),
     ("calendar", "Mira tu mes", "<p>El calendario muestra cada día del mes, más brillante cuantos más hábitos cumpliste: una forma tranquila de ver todo lo que has avanzado.</p>"),
   ],
   extra="<p class=\"note\">Coutume es una app de hábitos, no una app médica ni un programa para dejar de fumar. Para recibir ayuda para dejar de vapear, habla con un médico, un farmacéutico o una línea de ayuda local para dejar de fumar.</p>"),
@@ -222,7 +222,7 @@ ES = {
       </ul>
 
       <h2>Cómo sigue Coutume la investigación</h2>
-      <p>Las rachas de Coutume perdonan un día perdido por semana, así que un mal día no borra semanas de esfuerzo. Tu nivel cuenta cada día que cumpliste, no solo tu racha actual, y los once niveles van mucho más allá de 66 días, de Buena intención a Leyenda.</p>
+      <p>Las rachas de Coutume perdonan un día perdido por semana, así que un mal día no borra semanas de esfuerzo. Tu nivel cuenta cada día que cumpliste, no solo tu racha actual, y los quince niveles van mucho más allá de 66 días, de Buena intención a Leyenda.</p>
 """),
 }
 

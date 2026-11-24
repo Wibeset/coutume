@@ -25,8 +25,8 @@ Coutume doesn’t treat every habit the same way. A habit to build, like 8 glass
 - **Log in one tap.** Tap a ring, the day is logged. Touch and hold to enter a number or undo.
 - **Let Health do it.** Steps, exercise minutes, mindful minutes and water fill themselves in from Apple Health.
 - **Keep your streak.** One missed day a week is forgiven, so one off day doesn’t erase weeks of effort.
-- **Level up.** Eleven levels by days kept, from Good intention to Legend, and eighteen milestones to celebrate.
-- **See your month.** A calendar of every day, brighter as more habits were kept, and widgets for your Home Screen.
+- **Level up.** Fifteen levels by days kept, from Good intention to Legend, and eighteen milestones to celebrate.
+- **Go back in time.** A calendar to see and log any day, and widgets for your Home Screen.
 
 ## Private by default
 
@@ -47,7 +47,7 @@ Coutume est une app iPhone pour suivre tes habitudes : les bonnes à prendre, le
 - **Note d’un toucher** : touche l’anneau, c’est noté.
 - **Laisse faire Santé** : tes pas, ton exercice, ta pleine conscience et ton eau se notent seuls.
 - **Garde ta séquence** : un jour manqué par semaine est pardonné.
-- **Monte de niveau** : onze niveaux, dix-huit jalons et un calendrier de ton mois.
+- **Monte de niveau** : quinze niveaux, dix-huit jalons et un calendrier jour par jour.
 - **Tes habitudes restent à toi** : synchro iCloud, sans compte, sans pub, gratuite.
 
 [coutume.app/fr](https://coutume.app/fr/)

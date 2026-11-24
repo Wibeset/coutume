@@ -8,7 +8,7 @@ Key facts:
 - Price: free, with no ads, no subscription and no account.
 - Habits: to build (a check, or a count toward a daily target) or to quit (days without, money saved, urges resisted).
 - Apple Health: read only, never written. Steps, exercise minutes, mindful minutes and water; the daily totals stay on the device and in the user's private iCloud.
-- Gamification: forgiving streaks (one joker per week), eleven levels by days kept, eighteen milestones, perfect days.
+- Gamification: forgiving streaks (one joker per week), fifteen levels by days kept, eighteen milestones, perfect days.
 - Widgets: the day's rings on the Home Screen and Lock Screen.
 - Privacy: no analytics, tracking or server; the developer never receives the user's habits.
 - Suite: by the makers of Reliure (reading), Arpente (walking), Porcom (movies and TV) and Dernier Verre (cocktails).

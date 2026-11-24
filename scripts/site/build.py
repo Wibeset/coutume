@@ -61,8 +61,8 @@ SCREENS_ES = {
     "today": "El día: seis hábitos, cada uno con su anillo",
     "detail": "10.000 pasos, completados por Salud, con su racha y su historial",
     "quit": "Un hábito por dejar: 12 días sin bebidas energéticas, 42 $ ahorrados",
-    "progress": "Progreso: el nivel alcanzado y los logros ganados",
-    "calendar": "El calendario: el mes, más vivo cuantos más hábitos se cumplieron",
+    "progress": "Estadísticas: el nivel alcanzado y los logros ganados",
+    "calendar": "El calendario: un día a la vez, con la semana encima",
 }
 HOME_ES = dict(
     title="Coutume — Mantén tus hábitos, un día a la vez",
@@ -75,8 +75,8 @@ HOME_ES = dict(
         ("today", "Toca un anillo y el día queda anotado.", "Los hábitos de tu día, cada uno con su anillo. Un hábito que se cuenta, como 8 vasos de agua, suma uno con cada toque; mantén pulsado el anillo para introducir un número o deshacer."),
         ("detail", "Salud cuenta tus pasos por ti.", "Los pasos, los minutos de ejercicio, la atención plena y el agua se anotan solos. Cada hábito guarda su racha y todo su historial."),
         ("quit", "Los malos hábitos, contados en días sin.", "Un hábito por dejar se cumple por defecto: solo anotas el día que fallas. Coutume cuenta tus días sin, el dinero ahorrado y las ganas que resististe."),
-        ("progress", "Niveles y logros por cada día cumplido.", "Once niveles, de Buena intención a Leyenda, dieciocho logros que celebrar, y una racha que perdona un día perdido por semana."),
-        ("calendar", "Tu mes, día a día.", "Un calendario de cada día, más vivo cuantos más hábitos cumpliste, y widgets para tu pantalla de inicio."),
+        ("progress", "Niveles y logros por cada día cumplido.", "Quince niveles, de Buena intención a Leyenda, dieciocho logros que celebrar, y una racha que perdona un día perdido por semana."),
+        ("calendar", "Tus días, uno a uno.", "Vuelve día a día para ver, y anotar, lo que cumpliste, y añade widgets a tu pantalla de inicio."),
     ],
     features_h="Todas las funciones.", faq_h="Preguntas frecuentes.",
     more='¿Más preguntas? <a href="soporte/">Visita el soporte</a>.',
